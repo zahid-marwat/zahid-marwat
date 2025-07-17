@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zahid Marwat - Computer Vision Engineer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="config.js"></script>
     <style>
         * {
             margin: 0;
@@ -488,6 +489,96 @@
     </div>
 
     <script>
+        // Load configuration
+        const config = window.profileConfig;
+        
+        // Update page content with configuration
+        document.addEventListener('DOMContentLoaded', function() {
+            // Update title
+            document.title = config.seo.title;
+            
+            // Update meta description
+            const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta');
+            metaDescription.name = 'description';
+            metaDescription.content = config.seo.description;
+            if (!document.querySelector('meta[name="description"]')) {
+                document.head.appendChild(metaDescription);
+            }
+            
+            // Update profile information
+            document.querySelector('.profile-name').textContent = config.personal.name;
+            document.querySelector('.profile-title').textContent = config.personal.title;
+            
+            // Update social links
+            const socialLinks = document.querySelectorAll('.social-links a');
+            socialLinks[0].href = config.social.linkedin;
+            socialLinks[1].href = config.social.github;
+            socialLinks[2].href = config.social.twitter;
+            socialLinks[3].href = `mailto:${config.personal.email}`;
+            
+            // Update about section
+            const aboutItems = document.querySelectorAll('.about-item');
+            aboutItems[0].querySelector('p').textContent = config.status.currentWork;
+            aboutItems[1].querySelector('p').textContent = config.status.learning;
+            aboutItems[2].querySelector('p').textContent = config.status.collaboration;
+            aboutItems[3].querySelector('p').textContent = config.status.askMeAbout;
+            
+            // Update skills
+            const skillCategories = document.querySelectorAll('.skill-category');
+            
+            // Programming Languages
+            const progLangTags = skillCategories[0].querySelector('.skill-tags');
+            progLangTags.innerHTML = config.skills.programmingLanguages.map(skill => 
+                `<span class="skill-tag">${skill}</span>`
+            ).join('');
+            
+            // AI/ML & Computer Vision
+            const aiMlTags = skillCategories[1].querySelector('.skill-tags');
+            aiMlTags.innerHTML = config.skills.aiMlComputerVision.map(skill => 
+                `<span class="skill-tag">${skill}</span>`
+            ).join('');
+            
+            // Web Development
+            const webDevTags = skillCategories[2].querySelector('.skill-tags');
+            webDevTags.innerHTML = config.skills.webDevelopment.map(skill => 
+                `<span class="skill-tag">${skill}</span>`
+            ).join('');
+            
+            // Cloud & DevOps
+            const cloudTags = skillCategories[3].querySelector('.skill-tags');
+            cloudTags.innerHTML = config.skills.cloudDevOps.map(skill => 
+                `<span class="skill-tag">${skill}</span>`
+            ).join('');
+            
+            // Update projects
+            const projectsGrid = document.querySelector('.projects-grid');
+            projectsGrid.innerHTML = config.projects.slice(0, 4).map(project => `
+                <div class="project-card">
+                    <h3>${project.title}</h3>
+                    <p>${project.description}</p>
+                    <div class="project-links">
+                        <a href="${project.github}" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="${project.demo}" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            `).join('');
+            
+            // Update stats
+            const statItems = document.querySelectorAll('.stat-item');
+            statItems[0].querySelector('.stat-number').textContent = config.stats.projects;
+            statItems[1].querySelector('.stat-number').textContent = config.stats.commits;
+            statItems[2].querySelector('.stat-number').textContent = config.stats.languages;
+            statItems[3].querySelector('.stat-number').textContent = config.stats.experience;
+            
+            // Update contact information
+            const contactItems = document.querySelectorAll('.contact-item');
+            contactItems[0].querySelector('a').href = `mailto:${config.contact.email}`;
+            contactItems[0].querySelector('a').textContent = config.contact.email;
+            contactItems[1].querySelector('a').href = config.social.linkedin;
+            contactItems[2].querySelector('a').href = config.social.github;
+            contactItems[3].querySelector('a').href = config.contact.website;
+        });
+
         // Typing animation
         const texts = [
             "Building the future with AI and Computer Vision",
@@ -522,7 +613,13 @@
         }
         
         // Start typing animation
-        setTimeout(typeText, 1000);
+        setTimeout(() => {
+            // Use config typing texts if available
+            if (window.profileConfig && window.profileConfig.typingTexts) {
+                texts.splice(0, texts.length, ...window.profileConfig.typingTexts);
+            }
+            typeText();
+        }, 1000);
         
         // Smooth scrolling for any anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
