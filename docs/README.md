@@ -1,8 +1,8 @@
 # Hi there, I'm Zahid Marwat 👋
-
+<!-- 
 <div align="center">
   <img src="./Files/profile picture.png" alt="Zahid Marwat" width="150" height="150" style="border-radius: 70%;">
-</div>
+</div> -->
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Building+the+future+with+AI+and+Computer+Vision;Passionate+about+Machine+Learning+and+Innovation;Creating+intelligent+solutions+for+real-world+problems;Always+learning+and+exploring+new+technologies;Turning+complex+algorithms+into+user-friendly+applications;Contributing+to+open-source+AI+projects" alt="Typing SVG" />

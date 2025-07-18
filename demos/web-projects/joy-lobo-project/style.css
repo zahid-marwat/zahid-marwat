@@ -1,0 +1,293 @@
+/********************************Global Styling*************************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    --header1: calc(2rem + 1vw);
+    --header2: calc(3.8rem + 1vw);
+    --header3: calc(3.2rem + 1vw);
+    --header4: calc(3rem + 1vw);
+    --header5: calc(2.5rem + 1vw);
+    --text: calc(1.5rem + 1vw);
+    --special-color: #906272 ;
+    --background-color: #414141;
+    --grey-text:#525252;
+}
+
+
+h1{
+    font-size: var(--header1);
+}
+h2{
+    font-size: var(--header2);
+}
+h3{
+    font-size: var(--header3);
+}
+h4{
+    font-size: var(--header4);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: var(--header1);
+}
+
+p{
+    font-size: var(--text);
+}
+
+@font-face{
+    font-family: "ruhl";
+    src: url(/fonts/FrankRuhlLibre-Regular.ttf);
+}
+
+@font-face{
+    font-family: "ruhl-medium";
+    src: url(/fonts/FrankRuhlLibre-Regular.ttf);
+}
+@font-face{
+    font-family: "great-vibes";
+    src: url(/fonts/GreatVibes-Regular.ttf);
+}
+
+body{
+    font-family: "ruhl",sans-serif;
+    animation: pageentrance 1s ease-in;
+}
+
+/*********************************NAV AND HERO******************************************/
+
+.head-main{
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.1);
+    min-height: 10vh;
+    z-index: 1;
+    position: relative;
+}
+
+
+.head-main #logo{
+    color: black;
+    flex: 1 1 50rem;
+    padding: 2rem 2rem;
+    font-family: "great-vibes", sans-serif;
+}
+
+nav{
+    flex: 1 1 50rem;
+    display: flex;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+   padding: 2rem 2rem;
+}
+
+.hero{
+    display: flex;
+    min-height:90vh;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.head-hero{
+    flex: 80 1 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    margin: 0 0 0 auto;
+}
+.head-hero h2{
+    padding-top: 3rem;
+    margin-top: 3rem;
+    font-family: "ruhl-medium",sans-serif;
+}
+.head-hero p{
+    padding: 5rem 10rem;
+    color: var(--grey-text);
+
+}
+.head-hero a{
+    border: solid black;
+    padding: 2rem 5rem;
+    margin-bottom: 2rem;
+}
+
+.img-section{
+    flex: 1 1 40rem;
+    background: linear-gradient(#dad8dd,#dad1d4);
+    position: relative;
+    z-index: 1;
+    
+}
+
+.joy-img{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+
+.plant{
+    position: absolute;
+    transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
+    animation: plantenterance 1.5s ease-in forwards 0.5s,
+    plantmotion 2s infinite ease-in-out alternate-reverse 2s;
+    transform-origin: bottom;
+    z-index:-1;
+}
+
+.plant1{
+    left: -90%;
+    bottom: 0%;
+    height: 60rem;
+}
+
+.plant2{
+    bottom: 0%;
+    right: -50%;
+    height: 60rem;
+}
+
+/************************Animations**************************************/
+
+@keyframes pageentrance{
+
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+@keyframes plantenterance{
+    from{
+        transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
+    }
+    to{
+        transform: translateY(0%) rotateZ(0deg) rotateX(0deg);
+    }
+}
+
+@keyframes plantmotion{
+    from{
+        transform: rotateZ(-5deg) ;
+    }
+    to{
+        transform: rotateZ(0deg);
+    }
+}
+
+
+/*********************************Work Section************************************/
+
+.work{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.head-work{
+  flex: 1 1 40rem;
+  position: relative;
+}
+
+.head-work img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.head-work h2{
+    padding-top: 2rem;
+    position: absolute;
+    right: 20%;
+    letter-spacing: 2rem;
+}
+
+.work-detail{
+  flex: 2 1 40rem;
+  background-color: var(--background-color);
+  color: white;
+}
+
+#heading{
+    text-align: center;
+    padding: 2rem 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+}
+
+.joy-life{
+    width: 80%;
+    margin: auto;
+
+}
+
+.joy-work{
+    width: 80%;
+    margin: auto;
+}
+
+.joy-touch{
+    width: 80%;
+    margin: auto;
+}
+
+.dd{
+    padding-bottom: 1.5rem;
+}
+
+.work-detail p{
+    margin-bottom: 7rem;
+}
+
+/*****************************Media Querries*****************************************/
+
+@media screen and (max-width:842px)
+{
+    .plant1{
+        left: -50%;
+        bottom: 0%;
+    
+    }
+    
+    .plant2{
+        bottom: 0%;
+        right: 0%;
+    }
+}
+
+@media screen and (max-width:588px)
+{
+    .burger{
+        margin-top: 3rem;
+    }
+    .burger span{
+        padding: 0.2rem 2rem;
+        background: var(--grey-text);
+        display: block;
+        margin: 0.5rem 5rem;
+    }
+
+    
+
+}

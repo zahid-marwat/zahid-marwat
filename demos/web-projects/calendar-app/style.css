@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  height: 20vh;
+  width: 100%;
+  padding: 3rem;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+}
+
+body {
+  background-color: #ad4d00;
+}
+
+.month {
+  display: flex;
+  background-color: #ffb602;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.calander {
+  width: 30%;
+  height: 31rem;
+  margin: 10% 10% 20% 35%;
+
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.numbers {
+  display: flex;
+  margin-left: 25.8rem;
+}
+.numbers1 {
+  display: flex;
+}
+.numbers2 {
+  display: flex;
+}
+
+.num {
+  margin: 2.33rem;
+}
+.num1 {
+  margin: 2.33rem;
+  margin-top: 1.75rem;
+  margin-bottom: 2.08rem;
+}
+.num2 {
+  margin: 2.08rem;
+  margin-top: 1.75rem;
+}
+
+.days {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  background-color: #ffa901;
+  padding: 0.5rem;
+  width: 100%;
+}

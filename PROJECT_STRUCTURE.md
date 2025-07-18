@@ -4,162 +4,121 @@
 
 ```
 zahid-marwat/
-├── 📁 assets/                    # Static assets and media files
-│   ├── 📁 images/               # Images and graphics
-│   │   ├── 📷 profile picture.png
-│   │   └── 🏢 airloop_logo.png
-│   └── 📁 docs/                 # Documentation and downloadable files
-│       └── 📄 CV.pdf
-├── 📁 src/                      # Source code
-│   ├── 📁 css/                  # Stylesheets
-│   │   └── 🎨 styles.css
-│   └── 📁 js/                   # JavaScript files
-│       └── ⚙️ config.js         # Configuration file
-├── 📁 scripts/                  # Build and utility scripts
-│   ├── 🔧 update-readme.js      # README generator script
-│   └── 📝 update-all.bat        # Batch update script
-├── 📁 tests/                    # Testing files and utilities
-│   ├── 🧪 config-test.html      # Configuration testing
-│   ├── 🧪 test-config-loading.html
-│   ├── 🧪 test-files.html       # File access testing
-│   ├── 🧪 debug-config.html     # Debug configuration
-│   └── 🧪 manual-update.html    # Manual update tool
-├── 📁 docs/                     # Project documentation
-│   └── 📋 (documentation files will be moved here)
-├── 🌐 index.html                # Main profile page
-├── 📖 README.md                 # Project documentation
-└── 📁 .git/                     # Git repository
+├── 📄 index.html              # Main portfolio homepage
+├── 📄 about.html              # About page with education & experience
+├── 📄 projects.html           # Projects showcase page
+├── 📄 skills.html             # Skills and expertise page
+├── 📄 contact.html            # Contact information and form
+├── 📄 README.md               # Project documentation
+├── 📄 package.json            # Node.js dependencies
+├── 📄 .gitignore              # Git ignore rules
+├── 📄 PORTFOLIO_RESTRUCTURE.md # Portfolio restructure documentation
+├── 📄 PROJECT_STRUCTURE.md    # This file
+├── 📄 RESTRUCTURE_COMPLETE.md # Restructure completion log
+├── 📁 src/                    # Source code directory
+│   ├── 📁 css/
+│   │   └── 📄 portfolio.css   # Main stylesheet
+│   └── 📁 js/
+│       └── 📄 portfolio.js    # Main JavaScript functionality
+├── 📁 assets/                 # Static assets
+│   ├── 📁 images/
+│   │   ├── 🖼️ profile picture.png
+│   │   ├── 🖼️ NUST.png        # University logo
+│   │   └── 🖼️ GIKI.png        # University logo
+│   └── 📁 docs/
+│       └── 📄 CV.pdf          # Resume/CV file
+├── 📁 demos/                  # Demonstration projects
+│   ├── 📄 README.md           # Demos documentation
+│   ├── 📁 web-projects/       # Web development demos
+│   │   ├── 📁 calendar-app/
+│   │   ├── 📁 todo-app/
+│   │   ├── 📁 travel-website/
+│   │   ├── 📁 travelly-landing/
+│   │   ├── 📁 portfolio-template/
+│   │   ├── 📁 react-course-project/
+│   │   └── 📁 [other projects]/
+│   ├── 📁 ai-projects/        # AI/ML project demos
+│   └── 📁 computer-vision/    # Computer vision demos
+├── 📁 archive/                # Legacy files and backups
+│   ├── 📄 README.md           # Archive documentation
+│   └── 📄 profile.html        # Original profile page
+├── 📁 docs/                   # Documentation files
+├── 📁 scripts/                # Build and deployment scripts
+└── 📁 tests/                  # Test files and configurations
 ```
 
 ## 🗂️ File Organization
 
-### 📁 `/assets/`
-Contains all static assets used in the project:
-- **`/images/`**: Profile pictures, logos, and graphics
+### 📁 **Core Portfolio Files**
+- **`index.html`**: Main landing page with hero section and featured projects
+- **`about.html`**: Personal information, education, and professional experience
+- **`projects.html`**: Complete project showcase with filtering
+- **`skills.html`**: Technical skills and expertise
+- **`contact.html`**: Contact form and information
+
+### 📁 **`/src/`** - Source Code
+- **`/css/portfolio.css`**: Main stylesheet with light/dark theme support
+- **`/js/portfolio.js`**: JavaScript functionality including theme toggle and animations
+
+### 📁 **`/assets/`** - Static Assets
+- **`/images/`**: Profile pictures, university logos, and graphics
 - **`/docs/`**: PDF files, documents, and downloadable content
 
-### 📁 `/src/`
-Source code organized by type:
-- **`/css/`**: All stylesheet files
-- **`/js/`**: JavaScript files including configuration
+### 📁 **`/demos/`** - Demonstration Projects
+- **`/web-projects/`**: Web development demonstrations and samples
+- **`/ai-projects/`**: AI/ML project showcases (ready for future projects)
+- **`/computer-vision/`**: Computer vision project demonstrations
 
-### 📁 `/scripts/`
-Build and utility scripts:
-- **`update-readme.js`**: Automatically generates README.md from config
-- **`update-all.bat`**: Batch script to update all components
+### 📁 **`/archive/`** - Legacy Files
+- Contains outdated files and backups
+- Not linked to main portfolio
 
-### 📁 `/tests/`
-Testing and debugging tools:
-- **`config-test.html`**: Test configuration loading
-- **`test-files.html`**: Test file accessibility
-- **`debug-config.html`**: Debug configuration issues
-- **`manual-update.html`**: Manual update interface
+### 📁 **`/docs/`** - Documentation
+- Project documentation and guides
 
-### 📁 `/docs/`
-Project documentation:
-- Future documentation files will be stored here
+### 📁 **`/scripts/`** - Build Scripts
+- Build and deployment automation
 
-## 🔧 Configuration Management
+### 📁 **`/tests/`** - Testing
+- Test files and configurations
 
-### Main Configuration (`src/js/config.js`)
-Central configuration file containing:
-- Personal information
-- Social media links
-- Skills and technologies
-- Project details
-- File paths and assets
+## 🚀 Key Features
 
-### Auto-Update System
-- **HTML**: Automatically updates from `config.js`
-- **README**: Generated using `update-readme.js`
-- **Batch Script**: `update-all.bat` updates all components
+### ✅ **GitHub Pages Ready**
+- Main portfolio accessible via `index.html`
+- Automatic deployment compatible
 
-## 🚀 Usage Instructions
+### ✅ **Multi-page Architecture**
+- Separate pages for different sections
+- Consistent navigation throughout
 
-### 1. **Update Profile Information**
-Edit `src/js/config.js` with your personal details:
-```javascript
-personal: {
-    name: "Your Name",
-    title: "Your Title",
-    email: "your@email.com",
-    // ... other details
-}
+### ✅ **Theme System**
+- Light/Dark mode toggle
+- Persistent theme preference
+
+### ✅ **Responsive Design**
+- Mobile-friendly layout
+- Cross-browser compatibility
+
+### ✅ **Professional Organization**
+- Clean folder structure
+- Logical file organization
+- Documentation for each section
+
+## 🔗 Navigation Structure
+
 ```
-
-### 2. **Add Assets**
-- Place images in `assets/images/`
-- Place documents in `assets/docs/`
-- Update paths in `config.js`
-
-### 3. **Test Changes**
-- Open `tests/config-test.html` to verify configuration
-- Use `tests/debug-config.html` to troubleshoot issues
-
-### 4. **Deploy**
-- Main page: `index.html`
-- GitHub README: `README.md`
-- Assets are properly referenced
-
-## 🎯 Benefits of This Structure
-
-### ✅ **Organized**
-- Clear separation of concerns
-- Easy to navigate and maintain
-- Professional project structure
-
-### ✅ **Scalable**
-- Easy to add new features
-- Modular architecture
-- Clean file organization
-
-### ✅ **Maintainable**
-- Centralized configuration
-- Automated updates
-- Comprehensive testing tools
-
-### ✅ **Professional**
-- Industry-standard structure
-- Proper asset management
-- Documentation included
-
-## 🔄 Migration Benefits
-
-### Before (Old Structure)
+Home (index.html)
+├── About (about.html)
+├── Projects (projects.html)
+├── Skills (skills.html)
+└── Contact (contact.html)
 ```
-zahid-marwat/
-├── config.js
-├── index.html
-├── styles.css
-├── Files/
-│   ├── profile picture.png
-│   └── CV.pdf
-└── (various test files)
-```
-
-### After (New Structure)
-```
-zahid-marwat/
-├── src/
-├── assets/
-├── tests/
-├── scripts/
-├── docs/
-├── index.html
-└── README.md
-```
-
-### Improvements Made:
-1. **Separated concerns**: Source code, assets, and tests are in separate directories
-2. **Standardized paths**: All file paths follow modern conventions
-3. **Centralized configuration**: All settings in one place
-4. **Professional structure**: Follows industry best practices
-5. **Better organization**: Easy to find and maintain files
 
 ## 📝 Notes
 
-- All file paths have been updated to use the new structure
-- Configuration automatically loads from new locations
-- Test files moved to dedicated testing directory
-- Assets organized by type (images, documents)
-- Future-proof structure for easy expansion
+- All navigation links updated to use `index.html` as homepage
+- Legacy files preserved in `/archive/` folder
+- Demonstration projects organized by category in `/demos/`
+- Professional folder structure suitable for deployment
+- Theme toggle functionality maintained across all pages

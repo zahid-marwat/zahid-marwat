@@ -1,11 +1,11 @@
 # Hi there, I'm Zahid Marwat 👋
 
-<div align="center">
+<!-- <div align="center">
   <img src="assets/images/profile picture.png" alt="Zahid Marwat" width="150" height="150" style="border-radius: 50%;">
-</div>
+</div> -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Building+the+future+with+AI+%26+Computer+Vision;Passionate+about+Machine+Learning;Creating+intelligent+solutions;Always+learning+new+technologies;Computer+Vision+Engineer+%26+AI+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=Building+the+future+with+AI+%26+Computer+Vision;Passionate+about+Machine+Learning;Creating+intelligent+solutions;Always+learning+new+technologies;Computer+Vision+Engineer+%26+AI+Enthusiast" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -13,6 +13,12 @@
     <img src="https://img.shields.io/badge/Download-CV-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download CV">
   </a>
 </div>
+
+## 🌐 Portfolio Website
+
+Visit my portfolio website at: [https://zahid-marwat.github.io/zahid-marwat/](https://zahid-marwat.github.io/zahid-marwat/)
+
+The main portfolio is now accessible via `index.html` for GitHub Pages compatibility.
 
 ## 🚀 About Me
 
