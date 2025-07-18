@@ -1,15 +1,15 @@
 # Hi there, I'm Zahid Marwat 👋
 
 <div align="center">
-  <img src="./Files/profile picture.png" alt="Zahid Marwat" width="150" height="150" style="border-radius: 50%;">
+  <img src="assets/images/profile picture.png" alt="Zahid Marwat" width="150" height="150" style="border-radius: 50%;">
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Building+the+future+with+AI+and+Computer+Vision;Passionate+about+Machine+Learning+and+Innovation;Creating+intelligent+solutions+for+real-world+problems;Always+learning+and+exploring+new+technologies;Turning+complex+algorithms+into+user-friendly+applications;Contributing+to+open-source+AI+projects" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Building+the+future+with+AI+%26+Computer+Vision;Passionate+about+Machine+Learning;Creating+intelligent+solutions;Always+learning+new+technologies;Computer+Vision+Engineer+%26+AI+Enthusiast" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <a href="./Files/CV.pdf" target="_blank">
+  <a href="assets/docs/CV.pdf" target="_blank">
     <img src="https://img.shields.io/badge/Download-CV-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download CV">
   </a>
 </div>
@@ -23,7 +23,7 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 - 👯 I'm looking to collaborate on **open-source AI projects** and **innovative tech solutions**
 - 🤔 I'm looking for help with **distributed systems** and **large-scale ML deployment**
 - 💬 Ask me about **Computer Vision**, **Machine Learning**, **Python**, and **Software Architecture**
-- 📫 How to reach me: **[Your Email]** | **[Your LinkedIn]**
+- 📫 How to reach me: **fbpzahid4830@gmail.com** | **[LinkedIn](https://www.linkedin.com/in/zahid4830513)**
 - ⚡ Fun fact: I can debug code faster after a good cup of coffee ☕
 
 ## 🛠️ Tech Stack
@@ -126,7 +126,7 @@ Reusable React component library with TypeScript, Storybook, and comprehensive t
 ### Senior Computer Vision Engineer
 **Airloop** - 2022 - Present
 
-<img src="./Files/airloop_logo.png" alt="Airloop logo" width="100" height="50">
+<img src="assets/images/airloop_logo.png" alt="Airloop logo" width="100" height="50">
 
 Leading computer vision projects and AI model development
 
