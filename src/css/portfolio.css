@@ -672,53 +672,188 @@ body.dark-theme .theme-toggle:hover {
     z-index: 1;
 }
 
+/* Add mouse interaction styles */
+.hero-image {
+    position: relative;
+    overflow: visible;
+}
+
+.hero-image .image-container {
+    position: relative;
+    z-index: 2;
+}
+
 .floating-icons {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 999;
 }
 
 .floating-icon {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.7), rgba(80, 200, 120, 0.7));
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 1.5rem;
-    animation: orbit 15s linear infinite;
-    animation-delay: var(--delay);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    pointer-events: auto;
+    cursor: pointer;
+    z-index: 1000;
     backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.floating-icon i {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
+.floating-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.8), rgba(80, 200, 120, 0.8));
+}
+
+/* Emerging from left animation */
+@keyframes emerge-from-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px) translateY(-50%) scale(0.5);
+    }
+    50% {
+        opacity: 0.8;
+        transform: translateX(-20px) translateY(-50%) scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) translateY(-50%) scale(1);
+    }
+}
+
+.floating-icon.emerging {
+    animation: emerge-from-left 0.8s ease-out forwards;
+}
+
+/* Enhanced snake mode for cross-page */
+.floating-icon.snake-mode:nth-child(1) {
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.8), rgba(106, 90, 205, 0.8)) !important;
+}
+
+.floating-icon.snake-mode:nth-child(2) {
+    background: linear-gradient(135deg, rgba(80, 200, 120, 0.8), rgba(34, 197, 94, 0.8)) !important;
+}
+
+.floating-icon.snake-mode:nth-child(3) {
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.8), rgba(239, 68, 68, 0.8)) !important;
+}
+
+.floating-icon.snake-mode:nth-child(4) {
+    background: linear-gradient(135deg, rgba(255, 193, 7, 0.8), rgba(245, 158, 11, 0.8)) !important;
+}
+
+.floating-icon.snake-mode {
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Enhanced fighting mode for cross-page */
+.floating-icon.fighting-mode:nth-child(1) {
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.9), rgba(106, 90, 205, 0.9)) !important;
+}
+
+.floating-icon.fighting-mode:nth-child(2) {
+    background: linear-gradient(135deg, rgba(80, 200, 120, 0.9), rgba(34, 197, 94, 0.9)) !important;
+}
+
+.floating-icon.fighting-mode:nth-child(3) {
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.9), rgba(239, 68, 68, 0.9)) !important;
+}
+
+.floating-icon.fighting-mode:nth-child(4) {
+    background: linear-gradient(135deg, rgba(255, 193, 7, 0.9), rgba(245, 158, 11, 0.9)) !important;
+}
+
+.floating-icon.fighting-mode {
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Enhanced orbit mode for cross-page */
+.floating-icon.orbit-mode {
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Individual floating icon colors */
 .floating-icon:nth-child(1) {
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.7), rgba(106, 90, 205, 0.7)); /* Blue to Purple */
 }
 
 .floating-icon:nth-child(2) {
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
+    background: linear-gradient(135deg, rgba(80, 200, 120, 0.7), rgba(34, 197, 94, 0.7)); /* Green to Emerald */
 }
 
 .floating-icon:nth-child(3) {
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.7), rgba(239, 68, 68, 0.7)); /* Red to Crimson */
 }
 
 .floating-icon:nth-child(4) {
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
+    background: linear-gradient(135deg, rgba(255, 193, 7, 0.7), rgba(245, 158, 11, 0.7)); /* Yellow to Amber */
+}
+
+/* Hover effects for individual icons */
+.floating-icon:nth-child(1):hover {
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.9), rgba(106, 90, 205, 0.9));
+}
+
+.floating-icon:nth-child(2):hover {
+    background: linear-gradient(135deg, rgba(80, 200, 120, 0.9), rgba(34, 197, 94, 0.9));
+}
+
+.floating-icon:nth-child(3):hover {
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.9), rgba(239, 68, 68, 0.9));
+}
+
+.floating-icon:nth-child(4):hover {
+    background: linear-gradient(135deg, rgba(255, 193, 7, 0.9), rgba(245, 158, 11, 0.9)) !important;
+}
+
+/* Responsive adjustments for cross-page icons */
+@media (max-width: 768px) {
+    .floating-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .floating-icon i {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .floating-icon {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .floating-icon i {
+        font-size: 0.9rem;
+    }
 }
 
 /* Stats Section */
@@ -2094,11 +2229,116 @@ body.dark-theme .typing-animation {
 }
 
 @keyframes orbit {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(200px) rotate(0deg);
+    }
+    25% {
+        transform: translate(-50%, -50%) rotate(90deg) translateX(200px) rotate(-90deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(180deg) translateX(200px) rotate(-180deg);
+    }
+    75% {
+        transform: translate(-50%, -50%) rotate(270deg) translateX(200px) rotate(-270deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(200px) rotate(-360deg);
+    }
+}
+
+/* Enhanced orbit animation for different speeds - bigger circles */
+@keyframes orbit-slow {
     from {
-        transform: rotate(0deg) translateX(150px) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg) translateX(280px) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(150px) rotate(-360deg);
+        transform: translate(-50%, -50%) rotate(360deg) translateX(280px) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-fast {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(160px) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(160px) rotate(-360deg);
+    }
+}
+
+/* Orbit animation for very big circle */
+@keyframes orbit-big {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(320px) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(320px) rotate(-360deg);
+    }
+}
+
+/* Self rotation animation for icons */
+@keyframes self-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Snake trail effect */
+@keyframes snake-trail {
+    0% {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.6;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+}
+
+/* Fighting pulse effect - now cursor rotation glow */
+@keyframes cursor-rotation-glow {
+    0% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+    100% {
+        transform: scale(1.08);
+        filter: brightness(1.3);
+    }
+}
+
+/* Enhanced snake trail effect */
+@keyframes enhanced-snake-trail {
+    0% {
+        opacity: 0.9;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(0.95);
+    }
+    100% {
+        opacity: 0.9;
+        transform: scale(1);
+    }
+}
+
+/* Rotation orbit effect */
+@keyframes rotation-orbit {
+    0% {
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 35px rgba(255, 255, 255, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
     }
 }
 
@@ -2183,6 +2423,46 @@ body.dark-theme .typing-animation {
     box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
 }
 
+.btn-cv {
+    background: linear-gradient(45deg, #28a745, #20c997);
+    color: white;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-cv:hover {
+    background: linear-gradient(45deg, #218838, #1e9a7a);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+}
+
+.btn-cv::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.btn-cv:hover::before {
+    left: 100%;
+}
+
+body.dark-theme .btn-cv {
+    background: linear-gradient(45deg, #28a745, #20c997);
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+}
+
+body.dark-theme .btn-cv:hover {
+    background: linear-gradient(45deg, #34ce57, #17a2b8);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.5);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-container {
@@ -2243,6 +2523,13 @@ body.dark-theme .typing-animation {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 250px;
+        justify-content: center;
     }
     
     .image-container {
