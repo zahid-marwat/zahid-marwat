@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Config Loading Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .success {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
+        }
+        .info {
+            background-color: #d1ecf1;
+            border-color: #bee5eb;
+            color: #0c5460;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        .test-link {
+            color: #007bff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid #007bff;
+            border-radius: 3px;
+            margin: 5px;
+            display: inline-block;
+        }
+        .test-link:hover {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Configuration Loading Test</h1>
+    
+    <div class="test-section info">
+        <h2>Test Status</h2>
+        <div id="test-status">Loading configuration...</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Configuration Data</h2>
+        <div id="config-data">Waiting for configuration...</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Social Links Test</h2>
+        <div id="social-links">Loading social links...</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>File Paths Test</h2>
+        <div id="file-paths">Loading file paths...</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Personal Information</h2>
+        <div id="personal-info">Loading personal information...</div>
+    </div>
+
+    <!-- Load the configuration -->
+    <script src="./config.js"></script>
+    <script>
+        function runTests() {
+            const statusDiv = document.getElementById('test-status');
+            const configDiv = document.getElementById('config-data');
+            const socialDiv = document.getElementById('social-links');
+            const filesDiv = document.getElementById('file-paths');
+            const personalDiv = document.getElementById('personal-info');
+            
+            // Test 1: Check if config is loaded
+            if (typeof config !== 'undefined' && config) {
+                statusDiv.innerHTML = '<span class="success">✓ Configuration loaded successfully!</span>';
+                
+                // Test 2: Display config structure
+                configDiv.innerHTML = `
+                    <h3>Configuration Object Structure:</h3>
+                    <pre>${JSON.stringify(config, null, 2)}</pre>
+                `;
+                
+                // Test 3: Test social links
+                const socialLinks = Object.entries(config.social).map(([platform, url]) => 
+                    `<a href="${url}" target="_blank" class="test-link">${platform}: ${url}</a>`
+                ).join('<br>');
+                socialDiv.innerHTML = `
+                    <h3>Social Links:</h3>
+                    ${socialLinks}
+                `;
+                
+                // Test 4: Test file paths
+                const fileInfo = `
+                    <h3>Local Files:</h3>
+                    <strong>Profile Image:</strong> ${config.files.profileImage}<br>
+                    <strong>Resume:</strong> ${config.files.resume}<br>
+                    <strong>Company Logos:</strong> ${JSON.stringify(config.files.companyLogos, null, 2)}
+                `;
+                filesDiv.innerHTML = fileInfo;
+                
+                // Test 5: Personal information
+                const personalInfo = `
+                    <h3>Personal Details:</h3>
+                    <strong>Name:</strong> ${config.personal.name}<br>
+                    <strong>Title:</strong> ${config.personal.title}<br>
+                    <strong>Email:</strong> ${config.personal.email}<br>
+                    <strong>Location:</strong> ${config.personal.location}<br>
+                    <strong>Bio:</strong> ${config.personal.bio}
+                `;
+                personalDiv.innerHTML = personalInfo;
+                
+            } else {
+                statusDiv.innerHTML = '<span class="error">✗ Configuration failed to load!</span>';
+                configDiv.innerHTML = '<div class="error">Configuration object is not available.</div>';
+                socialDiv.innerHTML = '<div class="error">Cannot load social links.</div>';
+                filesDiv.innerHTML = '<div class="error">Cannot load file paths.</div>';
+                personalDiv.innerHTML = '<div class="error">Cannot load personal information.</div>';
+            }
+        }
+        
+        // Run tests when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(runTests, 100);
+        });
+        
+        // Also run after a delay to ensure config is loaded
+        setTimeout(runTests, 500);
+    </script>
+</body>
+</html>

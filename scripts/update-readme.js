@@ -8,7 +8,17 @@ function generateReadme() {
     const readme = `# Hi there, I'm ${config.personal.name} 👋
 
 <div align="center">
+  <img src="${config.personal.profileImage}" alt="${config.personal.name}" width="150" height="150" style="border-radius: 50%;">
+</div>
+
+<div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=${config.typingTexts.join(';').replace(/\s+/g, '+')}" alt="Typing SVG" />
+</div>
+
+<div align="center">
+  <a href="${config.personal.resume}" target="_blank">
+    <img src="https://img.shields.io/badge/Download-CV-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download CV">
+  </a>
 </div>
 
 ## 🚀 About Me
@@ -83,6 +93,7 @@ ${edu.description}
 ${config.experience.map(exp => `### ${exp.title}
 **${exp.company}** - ${exp.duration}
 ${exp.description}
+${exp.logo ? `<img src="${exp.logo}" alt="${exp.company} logo" width="50" height="50">` : ''}
 `).join('\n')}
 
 ## 🏅 Certifications

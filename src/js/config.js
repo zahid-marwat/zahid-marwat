@@ -6,18 +6,34 @@ const config = {
     personal: {
         name: "Zahid Marwat",
         title: "Computer Vision Engineer & AI/ML Enthusiast",
-        email: "your-email@example.com",
-        location: "Your City, Country",
+        email: "fbpzahid4830@gmail.com",
+        location: "Pakistan",
         bio: "Passionate Computer Vision Engineer with expertise in AI/ML and software development. I specialize in building intelligent solutions that solve real-world problems using cutting-edge technology.",
-        profileImage: "https://via.placeholder.com/150x150.png?text=ZM", // Replace with your actual photo URL
-        resume: "https://your-resume-link.com/resume.pdf"
+        profileImage: "assets/images/profile picture.png", // Local profile image
+        resume: "assets/docs/CV.pdf" // Local resume file
+    },
+
+    // Local Files
+    files: {
+        profileImage: "assets/images/profile picture.png",
+        resume: "assets/docs/CV.pdf",
+        companyLogos: {
+            airloop: "assets/images/airloop_logo.png"
+        },
+        // Add more file categories as needed
+        certificates: {
+            // Add certificate files here when available
+        },
+        projectImages: {
+            // Add project screenshot files here when available
+        }
     },
 
     // Social Media Links
     social: {
         github: "https://github.com/zahid-marwat",
-        linkedin: "https://linkedin.com/in/zahid-marwat",
-        twitter: "https://twitter.com/zahid_marwat",
+        linkedin: "https://www.linkedin.com/in/zahid4830513",
+        twitter: "https://x.com/zahid89782667",
         portfolio: "https://zahidmarwat.dev",
         instagram: "https://instagram.com/zahid_marwat",
         youtube: "https://youtube.com/@zahidmarwat",
@@ -27,11 +43,11 @@ const config = {
 
     // Contact Information
     contact: {
-        email: "your-email@example.com",
-        phone: "+1 (555) 123-4567",
+        email: "fbpzahid4830@gmail.com",
+        phone: "+93459858020",
         website: "https://zahidmarwat.dev",
         calendly: "https://calendly.com/zahidmarwat",
-        discord: "zahidmarwat#1234"
+        discord: "zahid9333"
     },
 
     // Current Status
@@ -47,11 +63,9 @@ const config = {
     skills: {
         programmingLanguages: [
             "Python",
-            "JavaScript",
-            "TypeScript",
             "C++",
-            "Java",
             "R",
+            'SQL',
             "MATLAB"
         ],
         aiMlComputerVision: [
@@ -64,7 +78,7 @@ const config = {
             "Keras",
             "YOLO",
             "CNN",
-            "RNN"
+            "RCNN"
         ],
         webDevelopment: [
             "React",
@@ -211,16 +225,16 @@ const config = {
     // Education
     education: [
         {
-            degree: "Master of Science in Computer Science",
-            school: "Your University",
-            year: "2022",
-            description: "Specialized in Computer Vision and Machine Learning"
+            degree: "Master of Science in Information Security",
+            school: "National University of Sciences and Technology, NUST",
+            year: "2026",
+            description: "Specialized in information security, secure software development, and AI applications"
         },
         {
-            degree: "Bachelor of Science in Software Engineering",
-            school: "Your University",
-            year: "2020",
-            description: "Focus on Software Development and Data Structures"
+            degree: "Bachelor of Science in Electrical Engineering",
+            school: "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology, GIKI",
+            year: "2022",
+            description: "Focus on electrical systems, software development, and data structures"
         }
     ],
 
@@ -228,22 +242,23 @@ const config = {
     experience: [
         {
             title: "Senior Computer Vision Engineer",
-            company: "Tech Company",
-            duration: "2023 - Present",
-            description: "Leading computer vision projects and AI model development"
+            company: "Airloop",
+            duration: "2022 - Present",
+            description: "Leading computer vision projects and AI model development",
+            logo: "./Files/airloop_logo.png" // Company logo
         },
-        {
-            title: "AI/ML Developer",
-            company: "Startup Company",
-            duration: "2021 - 2023",
-            description: "Developed machine learning solutions for various industries"
-        },
-        {
-            title: "Software Developer",
-            company: "Software Company",
-            duration: "2020 - 2021",
-            description: "Built web applications and backend systems"
-        }
+        // {
+        //     title: "AI/ML Developer",
+        //     company: "Airloop",
+        //     duration: "2021 - 2023",
+        //     description: "Developed machine learning solutions for various industries"
+        // },
+        // {
+        //     title: "Software Developer",
+        //     company: "Software Company",
+        //     duration: "2020 - 2021",
+        //     description: "Built web applications and backend systems"
+        // }
     ],
 
     // Blog Posts (if you have a blog)
@@ -294,6 +309,16 @@ const config = {
         image: "https://your-profile-image.com/og-image.jpg",
         url: "https://zahidmarwat.dev"
     },
+
+    // Typing Animation Texts
+    typingTexts: [
+        "Building the future with AI and Computer Vision",
+        "Passionate about Machine Learning and Innovation", 
+        "Creating intelligent solutions for real-world problems",
+        "Always learning and exploring new technologies",
+        "Computer Vision Engineer & AI/ML Enthusiast",
+        "Turning ideas into intelligent applications"
+    ],
 
     // Contact Form Configuration (if you want to add a contact form)
     contactForm: {

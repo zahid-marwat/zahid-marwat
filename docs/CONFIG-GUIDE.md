@@ -13,7 +13,77 @@ Automatically generates your `README.md` file from the configuration.
 ### `update-email.js` - Email Template Generator
 Generates your email-friendly HTML page from the configuration.
 
-## 🚀 Quick Setup
+## � File Management
+
+### Files Folder Structure
+Your profile uses local files stored in the `Files/` folder:
+
+```
+Files/
+├── profile picture.png    # Your profile photo
+├── airloop_logo.png      # Company logo
+└── CV.pdf                # Your resume/CV
+```
+
+### File Configuration
+Files are configured in the `config.js` file:
+
+```javascript
+files: {
+    profileImage: "./Files/profile picture.png",
+    resume: "./Files/CV.pdf",
+    companyLogos: {
+        airloop: "./Files/airloop_logo.png"
+    }
+}
+```
+
+### File Usage Across Pages
+
+#### Profile Image
+- **HTML Page**: Displays in the profile header
+- **README.md**: Shows in the GitHub profile
+- **Email Template**: Used in email introductions
+
+#### Resume/CV
+- **HTML Page**: Download button in profile header
+- **README.md**: Download badge
+- **Email Template**: Download link in contact section
+
+#### Company Logos
+- **HTML Page**: Can be used in experience section
+- **README.md**: Displayed with work experience
+- **Email Template**: Available for professional context
+
+### Adding New Files
+
+1. **Add files to the Files folder**
+2. **Update config.js**:
+   ```javascript
+   files: {
+       // ... existing files
+       newCategory: {
+           fileName: "./Files/new-file.ext"
+       }
+   }
+   ```
+3. **Update your templates to use the new files**
+
+### File Optimization Tips
+
+- **Images**: Use optimized formats (PNG, JPG, WebP)
+- **Resume**: Keep PDF size under 2MB
+- **Logos**: Use transparent backgrounds when possible
+- **Naming**: Use descriptive, URL-friendly names
+
+### Testing Files
+Use the `test-files.html` page to verify all files load correctly:
+1. Open `test-files.html` in your browser
+2. Check that all images display
+3. Test that the CV download works
+4. Verify file paths are correct
+
+## �🚀 Quick Setup
 
 ### 1. Update Your Information
 

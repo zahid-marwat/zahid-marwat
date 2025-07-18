@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Configuration Loading</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .debug-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .success {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .error {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        .info {
+            color: #007bff;
+            font-weight: bold;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Debug Configuration Loading</h1>
+    
+    <div class="debug-section">
+        <h2>Step 1: Check if config.js is loaded</h2>
+        <div id="config-loaded">Checking...</div>
+    </div>
+    
+    <div class="debug-section">
+        <h2>Step 2: Check window.profileConfig</h2>
+        <div id="window-config">Checking...</div>
+    </div>
+    
+    <div class="debug-section">
+        <h2>Step 3: Check specific configuration values</h2>
+        <div id="specific-values">Checking...</div>
+    </div>
+    
+    <div class="debug-section">
+        <h2>Step 4: Test social links</h2>
+        <div id="social-links">Checking...</div>
+    </div>
+
+    <!-- Load the configuration -->
+    <script src="./config.js"></script>
+    <script>
+        function debugConfiguration() {
+            console.log('=== DEBUGGING CONFIGURATION ===');
+            
+            // Step 1: Check if config.js is loaded
+            const configLoadedDiv = document.getElementById('config-loaded');
+            if (typeof config !== 'undefined') {
+                configLoadedDiv.innerHTML = '<span class="success">✓ config variable is defined</span>';
+                console.log('✓ config variable is defined');
+            } else {
+                configLoadedDiv.innerHTML = '<span class="error">✗ config variable is NOT defined</span>';
+                console.log('✗ config variable is NOT defined');
+            }
+            
+            // Step 2: Check window.profileConfig
+            const windowConfigDiv = document.getElementById('window-config');
+            if (typeof window.profileConfig !== 'undefined') {
+                windowConfigDiv.innerHTML = '<span class="success">✓ window.profileConfig is defined</span>';
+                console.log('✓ window.profileConfig is defined');
+            } else {
+                windowConfigDiv.innerHTML = '<span class="error">✗ window.profileConfig is NOT defined</span>';
+                console.log('✗ window.profileConfig is NOT defined');
+            }
+            
+            // Step 3: Check specific values
+            const specificValuesDiv = document.getElementById('specific-values');
+            if (window.profileConfig) {
+                const values = {
+                    name: window.profileConfig.personal?.name,
+                    email: window.profileConfig.personal?.email,
+                    github: window.profileConfig.social?.github,
+                    linkedin: window.profileConfig.social?.linkedin
+                };
+                
+                specificValuesDiv.innerHTML = `
+                    <span class="success">✓ Configuration values found:</span><br>
+                    <strong>Name:</strong> ${values.name}<br>
+                    <strong>Email:</strong> ${values.email}<br>
+                    <strong>GitHub:</strong> ${values.github}<br>
+                    <strong>LinkedIn:</strong> ${values.linkedin}
+                `;
+                console.log('✓ Configuration values:', values);
+            } else {
+                specificValuesDiv.innerHTML = '<span class="error">✗ Cannot access configuration values</span>';
+                console.log('✗ Cannot access configuration values');
+            }
+            
+            // Step 4: Test social links
+            const socialLinksDiv = document.getElementById('social-links');
+            if (window.profileConfig && window.profileConfig.social) {
+                const socialLinks = window.profileConfig.social;
+                socialLinksDiv.innerHTML = `
+                    <span class="success">✓ Social links available:</span><br>
+                    <a href="${socialLinks.github}" target="_blank">GitHub</a> |
+                    <a href="${socialLinks.linkedin}" target="_blank">LinkedIn</a> |
+                    <a href="${socialLinks.twitter}" target="_blank">Twitter</a> |
+                    <a href="mailto:${window.profileConfig.personal.email}">Email</a>
+                `;
+                console.log('✓ Social links:', socialLinks);
+            } else {
+                socialLinksDiv.innerHTML = '<span class="error">✗ Social links not available</span>';
+                console.log('✗ Social links not available');
+            }
+            
+            // Show the full config in console
+            console.log('Full window.profileConfig:', window.profileConfig);
+        }
+        
+        // Run debug immediately
+        debugConfiguration();
+        
+        // Also run after a short delay
+        setTimeout(debugConfiguration, 500);
+        
+        // Run when DOM is ready
+        document.addEventListener('DOMContentLoaded', debugConfiguration);
+    </script>
+</body>
+</html>
