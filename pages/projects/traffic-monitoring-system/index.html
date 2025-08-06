@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Traffic Monitoring System - Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <i class="fas fa-traffic-light"></i>
+                    <span>Traffic Monitor AI</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#demo">Demo</a>
+                    <a href="#tech">Technology</a>
+                    <a href="../index.html" class="btn-back">
+                        <i class="fas fa-arrow-left"></i> Back to Portfolio
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>AI Traffic Monitoring System</h1>
+                <p class="hero-description">
+                    Advanced traffic monitoring solution using computer vision and deep learning 
+                    for real-time vehicle detection, counting, and traffic flow analytics.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>95%</h3>
+                        <p>Detection Accuracy</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Real-time</h3>
+                        <p>Processing</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Monitoring</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-video">
+                <div class="video-placeholder">
+                    <i class="fas fa-play-circle"></i>
+                    <p>Demo Video Placeholder</p>
+                    <small>Real traffic monitoring footage would be displayed here</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Vehicle Detection</h3>
+                    <p>Real-time detection and classification of vehicles using YOLO algorithm</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3>Lane Monitoring</h3>
+                    <p>Advanced lane detection and violation monitoring for traffic rule enforcement</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Speed Estimation</h3>
+                    <p>Accurate speed calculation using computer vision tracking algorithms</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Traffic Analytics</h3>
+                    <p>Comprehensive traffic flow analysis and real-time reporting dashboard</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Alert System</h3>
+                    <p>Automated alerts for violations, accidents, and traffic congestion</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Storage</h3>
+                    <p>Secure storage and retrieval of traffic data for historical analysis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2>Live Demo Interface</h2>
+            <div class="demo-interface">
+                <div class="demo-sidebar">
+                    <h3>Controls</h3>
+                    <div class="control-group">
+                        <label>Detection Mode:</label>
+                        <select>
+                            <option>Vehicle Detection</option>
+                            <option>Lane Monitoring</option>
+                            <option>Speed Detection</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label>Sensitivity:</label>
+                        <input type="range" min="1" max="10" value="7">
+                    </div>
+                    <div class="stats-panel">
+                        <h4>Current Stats</h4>
+                        <div class="stat-item">
+                            <span>Vehicles Detected:</span>
+                            <strong>247</strong>
+                        </div>
+                        <div class="stat-item">
+                            <span>Average Speed:</span>
+                            <strong>45 km/h</strong>
+                        </div>
+                        <div class="stat-item">
+                            <span>Violations:</span>
+                            <strong>3</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="demo-main">
+                    <div class="video-feed">
+                        <div class="feed-placeholder">
+                            <i class="fas fa-video"></i>
+                            <h3>Live Traffic Feed</h3>
+                            <p>Camera feed with real-time AI analysis</p>
+                            <div class="detection-boxes">
+                                <div class="detection-box car">Car</div>
+                                <div class="detection-box truck">Truck</div>
+                                <div class="detection-box bike">Bike</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech" class="technology">
+        <div class="container">
+            <h2>Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Core development language</p>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-eye"></i>
+                    <h3>OpenCV</h3>
+                    <p>Computer vision processing</p>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>YOLO</h3>
+                    <p>Object detection algorithm</p>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-tensorflow"></i>
+                    <h3>TensorFlow</h3>
+                    <p>Deep learning framework</p>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-server"></i>
+                    <h3>Flask</h3>
+                    <p>Web framework for API</p>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <h3>SQLite</h3>
+                    <p>Data storage solution</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Traffic Monitor AI</h3>
+                    <p>Advanced AI-powered traffic monitoring solution</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Project Info</h3>
+                    <p>Duration: 6 months</p>
+                    <p>Status: Completed</p>
+                    <p>Team Size: 1 Developer</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links</h3>
+                    <a href="https://github.com/zahid-marwat/traffic-monitor" target="_blank">
+                        <i class="fab fa-github"></i> GitHub Repository
+                    </a>
+                    <a href="../index.html">
+                        <i class="fas fa-arrow-left"></i> Back to Portfolio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple animations and interactions
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animate stats on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -100px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate');
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all feature cards
+            document.querySelectorAll('.feature-card, .tech-item').forEach(card => {
+                observer.observe(card);
+            });
+
+            // Simulate real-time stats update
+            setInterval(() => {
+                const vehicleCount = document.querySelector('.stat-item strong');
+                if (vehicleCount) {
+                    let current = parseInt(vehicleCount.textContent);
+                    vehicleCount.textContent = current + Math.floor(Math.random() * 3);
+                }
+            }, 5000);
+        });
+    </script>
+</body>
+</html>

@@ -1,5 +1,15 @@
-// Navigation functionality
+// Enhanced Navigation functionality with Mobile Touch Effects
 document.addEventListener('DOMContentLoaded', function() {
+    // Mobile detection
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+                     (navigator.maxTouchPoints && navigator.maxTouchPoints > 2);
+    
+    // Setup mobile touch effects if on mobile
+    if (isMobile) {
+        setupMobileTouchEffects();
+        hideMobileFloatingIcons();
+    }
+    
     // Create theme toggle button and add to navbar
     const navContainer = document.querySelector('.nav-container');
     const navMenu = document.querySelector('.nav-menu');
@@ -836,6 +846,90 @@ function debounce(func, wait) {
         clearTimeout(timeout);
         timeout = setTimeout(later, wait);
     };
+}
+
+// Mobile Touch Effects Functions
+function setupMobileTouchEffects() {
+    // Create mobile effects container
+    const effectsContainer = document.createElement('div');
+    effectsContainer.id = 'mobileEffects';
+    effectsContainer.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: -1;
+    `;
+    document.body.appendChild(effectsContainer);
+    
+    // Add touch effect on touch/click
+    document.addEventListener('touchstart', (e) => {
+        createTouchRipple(e.touches[0].clientX, e.touches[0].clientY);
+    });
+
+    // Also handle mouse clicks for hybrid devices
+    document.addEventListener('click', (e) => {
+        if (e.isTrusted) { // Only real user clicks
+            createTouchRipple(e.clientX, e.clientY);
+        }
+    });
+}
+
+function createTouchRipple(x, y) {
+    const effectsContainer = document.getElementById('mobileEffects');
+    if (!effectsContainer) return;
+    
+    const ripple = document.createElement('div');
+    
+    ripple.style.cssText = `
+        position: absolute;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+        animation: ripple 1s ease-out forwards;
+        pointer-events: none;
+        left: ${x - 150}px;
+        top: ${y - 150}px;
+    `;
+    
+    // Add CSS animation if not already added
+    if (!document.getElementById('ripple-animation')) {
+        const style = document.createElement('style');
+        style.id = 'ripple-animation';
+        style.textContent = `
+            @keyframes ripple {
+                0% {
+                    width: 0;
+                    height: 0;
+                    opacity: 1;
+                }
+                100% {
+                    width: 300px;
+                    height: 300px;
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+    
+    effectsContainer.appendChild(ripple);
+    
+    // Remove ripple after animation
+    setTimeout(() => {
+        if (ripple.parentNode) {
+            ripple.parentNode.removeChild(ripple);
+        }
+    }, 1000);
+}
+
+function hideMobileFloatingIcons() {
+    // Hide floating icons on mobile devices
+    const floatingIcons = document.querySelector('.floating-icons');
+    if (floatingIcons) {
+        floatingIcons.style.display = 'none';
+    }
 }
 
 // Add loading animation

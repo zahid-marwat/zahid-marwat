@@ -1,18 +1,20 @@
-# Hi there, I'm Zahid Marwat 👋
-
-<!-- <div align="center">
-  <img src="assets/images/profile picture.png" alt="Zahid Marwat" width="150" height="150" style="border-radius: 50%;">
-</div> -->
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> # Hi there, I'm Zahid Marwat 👋
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=Building+the+future+with+AI+%26+Computer+Vision;Passionate+about+Machine+Learning;Creating+intelligent+solutions;Always+learning+new+technologies;Computer+Vision+Engineer+%26+AI+Enthusiast" alt="Typing SVG" />
 </div>
+
+<picture> <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width = 250px></picture>
+
 
 <div align="center">
   <a href="assets/docs/CV.pdf" target="_blank">
     <img src="https://img.shields.io/badge/Download-CV-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download CV">
   </a>
 </div>
+
+
+
 
 ## 🌐 Portfolio Website
 

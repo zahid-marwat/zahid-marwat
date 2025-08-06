@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Face Recognition System - Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <i class="fas fa-user-check"></i>
+                    <span>Face Recognition AI</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#demo">Live Demo</a>
+                    <a href="#security">Security</a>
+                    <a href="../index.html" class="btn-back">
+                        <i class="fas fa-arrow-left"></i> Back to Portfolio
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Smart Face Recognition System</h1>
+                <p class="hero-description">
+                    Advanced face recognition system with anti-spoofing capabilities, emotion detection, 
+                    and real-time attendance tracking. Built with cutting-edge deep learning models.
+                </p>
+                <div class="hero-features">
+                    <div class="feature-highlight">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Anti-Spoofing</span>
+                    </div>
+                    <div class="feature-highlight">
+                        <i class="fas fa-smile"></i>
+                        <span>Emotion Detection</span>
+                    </div>
+                    <div class="feature-highlight">
+                        <i class="fas fa-clock"></i>
+                        <span>Real-time Processing</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-demo">
+                <div class="face-scanner">
+                    <div class="scanner-frame">
+                        <div class="face-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                            <div class="scanning-lines"></div>
+                        </div>
+                        <div class="detection-info">
+                            <div class="detection-result success">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Face Detected - Live Person</span>
+                            </div>
+                            <div class="detection-metrics">
+                                <div class="metric">
+                                    <span>Confidence:</span>
+                                    <div class="confidence-bar">
+                                        <div class="confidence-fill" style="width: 95%;"></div>
+                                    </div>
+                                    <span>95%</span>
+                                </div>
+                                <div class="metric">
+                                    <span>Emotion:</span>
+                                    <span class="emotion-tag">Happy 😊</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Advanced Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Real-time Detection</h3>
+                    <p>Lightning-fast face detection and recognition with sub-second response times</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>Liveness Detection</h3>
+                    <p>Advanced anti-spoofing technology to prevent photo and video attacks</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-smile-beam"></i>
+                    </div>
+                    <h3>Emotion Recognition</h3>
+                    <p>Detect and analyze facial emotions with high accuracy using deep learning</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Multiple Face Support</h3>
+                    <p>Simultaneously detect and recognize multiple faces in a single frame</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Attendance Tracking</h3>
+                    <p>Automated attendance system with detailed logging and reporting</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Easy Integration</h3>
+                    <p>Simple API integration with existing systems and applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="demo-section">
+        <div class="container">
+            <h2>Live Demo Interface</h2>
+            <div class="demo-interface">
+                <div class="demo-controls">
+                    <h3>System Controls</h3>
+                    <div class="control-panel">
+                        <div class="control-group">
+                            <label>Detection Mode:</label>
+                            <select id="detectionMode">
+                                <option value="recognition">Face Recognition</option>
+                                <option value="emotion">Emotion Detection</option>
+                                <option value="attendance">Attendance Mode</option>
+                            </select>
+                        </div>
+                        <div class="control-group">
+                            <label>Sensitivity:</label>
+                            <input type="range" id="sensitivity" min="50" max="99" value="85">
+                            <span id="sensitivityValue">85%</span>
+                        </div>
+                        <div class="control-group">
+                            <label>Anti-Spoofing:</label>
+                            <div class="toggle-switch">
+                                <input type="checkbox" id="antiSpoof" checked>
+                                <label for="antiSpoof" class="slider"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats-dashboard">
+                        <h4>System Stats</h4>
+                        <div class="stat-row">
+                            <span>Faces Registered:</span>
+                            <strong>156</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>Today's Recognitions:</span>
+                            <strong>47</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>System Accuracy:</span>
+                            <strong>98.7%</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>Status:</span>
+                            <span class="status-active">Active</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="demo-main">
+                    <div class="camera-feed">
+                        <div class="feed-header">
+                            <h4>Live Camera Feed</h4>
+                            <div class="recording-indicator">
+                                <div class="rec-dot"></div>
+                                <span>LIVE</span>
+                            </div>
+                        </div>
+                        <div class="feed-content">
+                            <div class="simulated-faces">
+                                <div class="face-detection person1">
+                                    <div class="face-box">
+                                        <div class="person-info">
+                                            <span>John Doe</span>
+                                            <small>95% confidence</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="face-detection person2">
+                                    <div class="face-box">
+                                        <div class="person-info">
+                                            <span>Jane Smith</span>
+                                            <small>92% confidence</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="camera-placeholder">
+                                <i class="fas fa-camera"></i>
+                                <p>Real-time Face Recognition</p>
+                                <small>Camera feed with AI overlay</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recent-detections">
+                        <h4>Recent Detections</h4>
+                        <div class="detection-log">
+                            <div class="log-entry">
+                                <div class="log-avatar">JD</div>
+                                <div class="log-info">
+                                    <strong>John Doe</strong>
+                                    <small>2 minutes ago - Happy</small>
+                                </div>
+                                <div class="log-status success">✓</div>
+                            </div>
+                            <div class="log-entry">
+                                <div class="log-avatar">JS</div>
+                                <div class="log-info">
+                                    <strong>Jane Smith</strong>
+                                    <small>5 minutes ago - Neutral</small>
+                                </div>
+                                <div class="log-status success">✓</div>
+                            </div>
+                            <div class="log-entry">
+                                <div class="log-avatar">?</div>
+                                <div class="log-info">
+                                    <strong>Unknown Person</strong>
+                                    <small>12 minutes ago - Surprised</small>
+                                </div>
+                                <div class="log-status warning">!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="security" class="security">
+        <div class="container">
+            <h2>Security & Privacy</h2>
+            <div class="security-grid">
+                <div class="security-item">
+                    <i class="fas fa-lock"></i>
+                    <h3>End-to-End Encryption</h3>
+                    <p>All facial data is encrypted using military-grade AES-256 encryption</p>
+                </div>
+                <div class="security-item">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Privacy Compliance</h3>
+                    <p>GDPR and CCPA compliant with user consent management</p>
+                </div>
+                <div class="security-item">
+                    <i class="fas fa-server"></i>
+                    <h3>Local Processing</h3>
+                    <p>Face recognition processed locally, no data sent to external servers</p>
+                </div>
+                <div class="security-item">
+                    <i class="fas fa-trash-alt"></i>
+                    <h3>Auto-Deletion</h3>
+                    <p>Automatic deletion of processed images after recognition completion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Face Recognition AI</h3>
+                    <p>Advanced facial recognition with privacy protection</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Technical Specs</h3>
+                    <p>Accuracy: 98.7%</p>
+                    <p>Processing Speed: < 100ms</p>
+                    <p>Supported Formats: RGB, IR</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Project Links</h3>
+                    <a href="https://github.com/zahid-marwat/face-recognition" target="_blank">
+                        <i class="fab fa-github"></i> GitHub Repository
+                    </a>
+                    <a href="../index.html">
+                        <i class="fas fa-arrow-left"></i> Back to Portfolio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Sensitivity slider update
+            const sensitivitySlider = document.getElementById('sensitivity');
+            const sensitivityValue = document.getElementById('sensitivityValue');
+            
+            sensitivitySlider.addEventListener('input', function() {
+                sensitivityValue.textContent = this.value + '%';
+            });
+
+            // Simulate face detection animation
+            const faceDetections = document.querySelectorAll('.face-detection');
+            setInterval(() => {
+                faceDetections.forEach(detection => {
+                    detection.style.opacity = Math.random() > 0.1 ? '1' : '0.7';
+                });
+            }, 2000);
+
+            // Animate confidence bar
+            const confidenceFill = document.querySelector('.confidence-fill');
+            setInterval(() => {
+                const newWidth = 85 + Math.random() * 10;
+                confidenceFill.style.width = newWidth + '%';
+            }, 3000);
+
+            // Simulate real-time stats
+            const statsNumbers = document.querySelectorAll('.stat-row strong');
+            setInterval(() => {
+                if (statsNumbers[1]) { // Today's recognitions
+                    let current = parseInt(statsNumbers[1].textContent);
+                    if (Math.random() > 0.8) {
+                        statsNumbers[1].textContent = current + 1;
+                    }
+                }
+            }, 10000);
+
+            // Scanning lines animation
+            const scanningLines = document.querySelector('.scanning-lines');
+            if (scanningLines) {
+                setInterval(() => {
+                    scanningLines.style.animation = 'none';
+                    setTimeout(() => {
+                        scanningLines.style.animation = 'scan 2s ease-in-out';
+                    }, 100);
+                }, 3000);
+            }
+        });
+    </script>
+</body>
+</html>

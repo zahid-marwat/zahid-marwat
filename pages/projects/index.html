@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Zahid Marwat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../../index.html">Zahid Marwat</a>
+            </div>
+            <div class="nav-menu">
+                <a href="../../index.html" class="nav-link">Home</a>
+                <a href="../about/index.html" class="nav-link">About</a>
+                <a href="index.html" class="nav-link active">Projects</a>
+                <a href="../skills/index.html" class="nav-link">Skills</a>
+                <a href="../contact/index.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Touch Effects (replaces floating icons on mobile) -->
+    <div class="mobile-touch-effects" id="mobileEffects"></div>
+
+    <!-- Desktop Floating Icons (hidden on mobile) -->
+    <div class="floating-icons desktop-only">
+        <div class="floating-icon" style="--delay: 0s;">
+            <i class="fas fa-code"></i>
+        </div>
+        <div class="floating-icon" style="--delay: 3s;">
+            <i class="fas fa-laptop"></i>
+        </div>
+        <div class="floating-icon" style="--delay: 6s;">
+            <i class="fas fa-cog"></i>
+        </div>
+        <div class="floating-icon" style="--delay: 9s;">
+            <i class="fas fa-lightbulb"></i>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <section class="page-header animate-on-scroll">
+            <div class="container">
+                <h1 class="slide-in-down">My Projects</h1>
+                <p class="slide-in-up">Explore my portfolio of Computer Vision and AI projects</p>
+            </div>
+        </section>
+
+        <section class="projects-filter">
+            <div class="container">
+                <div class="filter-buttons animate-on-scroll fade-in-up">
+                    <button class="filter-btn active glass-card" data-filter="all">All Projects</button>
+                    <button class="filter-btn glass-card" data-filter="computer-vision">Computer Vision</button>
+                    <button class="filter-btn glass-card" data-filter="ai-ml">AI & ML</button>
+                    <button class="filter-btn glass-card" data-filter="web-dev">Web Development</button>
+                    <button class="filter-btn glass-card" data-filter="data-science">Data Science</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-grid-section">
+            <div class="container">
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

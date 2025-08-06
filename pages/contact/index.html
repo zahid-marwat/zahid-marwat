@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Zahid Marwat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../../index.html">Zahid Marwat</a>
+            </div>
+            <div class="nav-menu">
+                <a href="../../index.html" class="nav-link">Home</a>
+                <a href="../about/index.html" class="nav-link">About</a>
+                <a href="../projects/index.html" class="nav-link">Projects</a>
+                <a href="../skills/index.html" class="nav-link">Skills</a>
+                <a href="index.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Touch Effects (replaces floating icons on mobile) -->
+    <div class="mobile-touch-effects" id="mobileEffects"></div>
+
+    <!-- Desktop Floating Icons (hidden on mobile) -->
+    <div class="floating-icons desktop-only">
+        <div class="floating-icon" style="--delay: 0s;">
+            <i class="fas fa-code"></i>
+        </div>
+        <div class="floating-icon" style="--delay: 3s;">
+            <i class="fas fa-laptop"></i>
+        </div>
+        <div class="floating-icon" style="--delay: 6s;">
+            <i class="fas fa-cog"></i>
+        </div>
+        <div class="floating-icon" style="--delay: 9s;">
+            <i class="fas fa-lightbulb"></i>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <section class="page-header animate-on-scroll">
+            <div class="container">
+                <h1 class="slide-in-down">Get In Touch</h1>
+                <p class="slide-in-up">Let's discuss your next project or collaboration opportunity</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info animate-on-scroll slide-in-left">
+                        <h2>Let's Connect</h2>
+                        <p>I'm always open to discussing new opportunities, interesting projects, or just having a conversation about technology and innovation. Feel free to reach out!</p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method glass-card animate-on-scroll fade-in-up" data-delay="0.1s">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h3>Email</h3>
+                                    <p>Drop me a line anytime</p>
+                                    <a href="mailto:fbpzahid4830@gmail.com">fbpzahid4830@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method glass-card animate-on-scroll fade-in-up" data-delay="0.2s">
+                                <div class="method-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h3>LinkedIn</h3>
+                                    <p>Let's connect professionally</p>
+                                    <a href="https://linkedin.com/in/zahid4830513" target="_blank">linkedin.com/in/zahid4830513</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method glass-card animate-on-scroll fade-in-up" data-delay="0.3s">
+                                <div class="method-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h3>GitHub</h3>
+                                    <p>Check out my repositories</p>
+                                    <a href="https://github.com/zahid-marwat" target="_blank">github.com/zahid-marwat</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method glass-card animate-on-scroll fade-in-up" data-delay="0.4s">
+                                <div class="method-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="method-content">
+                                    <h3>Twitter</h3>
+                                    <p>Follow for tech updates</p>
+                                    <a href="https://twitter.com/zahid89782667" target="_blank">@zahid89782667</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container animate-on-scroll slide-in-right">
+                        <div class="contact-form glass-card">
+                            <h2>Send a Message</h2>
+                            <form id="contactForm" action="#" method="POST">
+                                <div class="form-group">
+                                    <label for="name">Name *</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="subject">Subject *</label>
+                                    <input type="text" id="subject" name="subject" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message">Message *</label>
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                
+                                <button type="submit" class="submit-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="availability-section">
+            <div class="container">
+                <h2 class="animate-on-scroll slide-in-down">Availability & Response</h2>
+                <div class="availability-grid">
+                    <div class="availability-item glass-card animate-on-scroll bounce-in" data-delay="0.1s">
+                        <i class="fas fa-clock"></i>
+                        <h3>Response Time</h3>
+                        <p>I typically respond to emails within 24 hours during business days</p>
+                    </div>
+                    
+                    <div class="availability-item glass-card animate-on-scroll bounce-in" data-delay="0.2s">
+                        <i class="fas fa-calendar-check"></i>
+                        <h3>Project Availability</h3>
+                        <p>Currently available for freelance projects and collaboration opportunities</p>
+                    </div>
+                    
+                    <div class="availability-item glass-card animate-on-scroll bounce-in" data-delay="0.3s">
+                        <i class="fas fa-globe"></i>
+                        <h3>Time Zone</h3>
+                        <p>Based in Pakistan (PKT - UTC+5), flexible with global time zones</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content animate-on-scroll fade-in-up">
+                    <h2>Ready to Start Your Project?</h2>
+                    <p>Let's turn your ideas into reality with cutting-edge AI and computer vision solutions.</p>
+                    <div class="cta-buttons">
+                        <a href="mailto:fbpzahid4830@gmail.com" class="cta-button primary">
+                            <i class="fas fa-envelope"></i>
+                            Start a Conversation
+                        </a>
+                        <a href="../../assets/docs/CV.pdf" download="Zahid_Marwat_CV.pdf" class="cta-button secondary">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

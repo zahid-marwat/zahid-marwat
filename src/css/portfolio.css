@@ -2465,6 +2465,11 @@ body.dark-theme .btn-cv:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    /* Hide floating icons on mobile devices */
+    .floating-icons {
+        display: none !important;
+    }
+    
     .nav-container {
         flex-wrap: wrap;
         gap: 1rem;
@@ -2594,6 +2599,29 @@ body.dark-theme .btn-cv:hover {
     
     body.dark-theme .nav-menu {
         background: #2d2d2d;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+    /* Hide floating icons on touch devices */
+    .floating-icons {
+        display: none !important;
+    }
+    
+    /* Remove hover effects that don't work well on touch */
+    .project-card:hover,
+    .stat-item:hover,
+    .highlight-item:hover,
+    .value-item:hover,
+    .hover-lift:hover {
+        transform: none;
+    }
+    
+    /* Always show project overlays on touch devices */
+    .project-overlay {
+        opacity: 1;
+        background: rgba(52, 152, 219, 0.3);
     }
 }
 
