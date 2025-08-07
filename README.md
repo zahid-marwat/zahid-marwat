@@ -1,10 +1,11 @@
-## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> # Hi there, I'm Zahid Marwat 👋
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=Building+the+future+with+AI+%26+Computer+Vision;Passionate+about+Machine+Learning;Creating+intelligent+solutions;Always+learning+new+technologies;Computer+Vision+Engineer+%26+AI+Enthusiast" alt="Typing SVG" />
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=Building+the+future+with+AI+%26+Computer+Vision;Passionate+about+Machine+Learning;Creating+intelligent+solutions;Always+learning+new+technologies;Computer+Vision+Engineer+%26+AI+Enthusiast" alt="Typing SVG" />
-</div>
-
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=gradient&customColorList=11&text=ZAHID%20MARWAT&textBg=false&fontAlignY=23&section=header&reversal=true&animation=twinkling"/>
+</p>
 <picture> <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width = 250px></picture>
+
+
 
 
 <div align="center">
@@ -12,6 +13,48 @@
     <img src="https://img.shields.io/badge/Download-CV-blue?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="Download CV">
   </a>
 </div>
+
+
+
+
+
+- :school: I am currently working at PLUG AI as DATA SCIENTIST.
+- 🫁 Currently working on `Early detection of lung cancer using Pytorch` & solving `leetcode challenges`
+- :student: I’m currently trying to solve ` TSP with Quantum Machine Learning`
+- :boom: You can visit My website: [here](https://zaheerh4ck3r.vercel.app/)
+- :boom: I use arch btw.
+
+<a href="https://www.instagram.com/thepiyushmalhotra/">
+  <img height="50" src="https://user-images.githubusercontent.com/46517096/166974368-9798f39f-1f46-499c-b14e-81f0a3f83a06.png"/>
+</a>
+
+
+
+
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&customColorList=11&text=Till%20the%20next%20deploy&textBg=false&fontAlignY=80&section=footer&reversal=true&animation=twinkling&fontAlign=60"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
 
 
 
@@ -85,64 +128,31 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zahid-marwat&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
-## 🏆 Featured Projects
+## 🐍 A Snake Eating my Contributions Graph
+	
+<p align = "center">
+	<img src = "https://github.com/zahid-marwat/zahid-marwat/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
+</p>
 
-### 🎯 [Computer Vision Object Detection](https://github.com/zahid-marwat/object-detection)
-Real-time object detection system using YOLO and OpenCV for automated surveillance applications.
-
-**Tech Stack:** Python, OpenCV, YOLO, TensorFlow
-- [GitHub Repository](https://github.com/zahid-marwat/object-detection)
-- [Live Demo](https://object-detection-demo.vercel.app)
-
-### 🤖 [AI-Powered Image Classification](https://github.com/zahid-marwat/medical-image-classification)
-Deep learning model for medical image classification with 95% accuracy using TensorFlow and CNN.
-
-**Tech Stack:** Python, TensorFlow, CNN, Medical AI
-- [GitHub Repository](https://github.com/zahid-marwat/medical-image-classification)
-- [Live Demo](https://medical-ai-demo.vercel.app)
-
-### 🌐 [Smart Traffic Management System](https://github.com/zahid-marwat/smart-traffic)
-IoT-based traffic monitoring system with computer vision for traffic flow optimization.
-
-**Tech Stack:** Python, IoT, Computer Vision, OpenCV
-- [GitHub Repository](https://github.com/zahid-marwat/smart-traffic)
-- [Live Demo](https://smart-traffic-demo.vercel.app)
-
-### 💻 [Full-Stack Web Application](https://github.com/zahid-marwat/fullstack-app)
-Modern web application with React frontend, Node.js backend, and MongoDB database.
-
-**Tech Stack:** React, Node.js, MongoDB, Express.js
-- [GitHub Repository](https://github.com/zahid-marwat/fullstack-app)
-- [Live Demo](https://fullstack-app-demo.vercel.app)
-
-### 🧠 [Machine Learning Portfolio](https://github.com/zahid-marwat/ml-portfolio)
-Collection of ML projects including NLP, time series analysis, and recommendation systems.
-
-**Tech Stack:** Python, Scikit-learn, NLP, Time Series
-- [GitHub Repository](https://github.com/zahid-marwat/ml-portfolio)
-- [Live Demo](https://ml-portfolio-demo.vercel.app)
-
-### ⚛️ [React Component Library](https://github.com/zahid-marwat/react-components)
-Reusable React component library with TypeScript, Storybook, and comprehensive testing.
-
-**Tech Stack:** React, TypeScript, Storybook, Jest
-- [GitHub Repository](https://github.com/zahid-marwat/react-components)
-- [Live Demo](https://react-components-storybook.vercel.app)
 
 ## 💼 Experience
 
 ### Senior Computer Vision Engineer
 **Airloop** - 2022 - Present
 
-<img src="assets/images/airloop_logo.png" alt="Airloop logo" width="100" height="50">
+<img src="assets/images/airloop_logo.png" alt="Airloop logo" width="200" height="50">
 
 Leading computer vision projects and AI model development
 
 ## 🎓 Education
 
+<img src="assets/images/NUST.png" alt="NUST logo" width="120" height="120">
+
 ### Master of Science in Information Security
 **National University of Sciences and Technology, NUST** - 2026
 Specialized in information security, secure software development, and AI applications
+
+<img src="assets/images/GIKI.png" alt="GIKI logo" width="100" height="100">
 
 ### Bachelor of Science in Electrical Engineering
 **Ghulam Ishaq Khan Institute of Engineering Sciences and Technology, GIKI** - 2022
