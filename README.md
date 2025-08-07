@@ -3,7 +3,23 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=gradient&customColorList=11&text=ZAHID%20MARWAT&textBg=false&fontAlignY=23&section=header&reversal=true&animation=twinkling"/>
 </p>
-<picture> <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width = 250px></picture>
+<picture> <img align="Right" src="https://github.com/zahid-marwat/zahid-marwat/assets/icons/Right_Side.gif?raw=true" width = 250px></picture>
+
+
+C:\Users\z-pc\Desktop\zahid-marwat\assets\icons
+
+
+# 💫 About Me:
+I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a strong background in software development. I love working on cutting-edge projects that push the boundaries of what's possible with artificial intelligence and computer vision.
+
+
+- 🔭 I’m currently working on **Road Assets and Cracks Detection**<br>
+- 👯 I’m looking to collaborate on **LIDAR** data and **Point Cloud**<br>
+- 🌱 I’m currently learning **Security** problems in **AI Agents**<br>
+- 💬 Ask me about Football
+- 📫 How to reach me: **fbpzahid4830@gmail.com** | **[LinkedIn](https://www.linkedin.com/in/zahid4830513)**
+- ⚡ Fun fact: I can debug code faster after a good cup of coffee ☕
+
 
 
 
@@ -14,19 +30,27 @@
   </a>
 </div>
 
+## 🤝 Connect with Me
 
-
-
-
-- :school: I am currently working at PLUG AI as DATA SCIENTIST.
-- 🫁 Currently working on `Early detection of lung cancer using Pytorch` & solving `leetcode challenges`
-- :student: I’m currently trying to solve ` TSP with Quantum Machine Learning`
-- :boom: You can visit My website: [here](https://zaheerh4ck3r.vercel.app/)
-- :boom: I use arch btw.
-
-<a href="https://www.instagram.com/thepiyushmalhotra/">
-  <img height="50" src="https://user-images.githubusercontent.com/46517096/166974368-9798f39f-1f46-499c-b14e-81f0a3f83a06.png"/>
+<div align="center">
+<a href="https://instagram.com/xahid.830/">
+  <img height="50" src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-4/24/instagram-64.png"/>
+<a href="https://www.linkedin.com/in/zahid4830513/">
+  <img height="50" src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-4/24/linkedin-64.png"/>
 </a>
+<a href="https://discord.com/users/zahid9333">
+  <img height="50" src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/discord-64.png"/>
+</a>
+<a href="https://x.com/https://x.com/zahid89782667/">
+  <img height="50" src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-6/24/twitter-alt-64.png"/>
+</a>
+<a href="mailto:fbpzahid4830@gmail.com">
+  <img height="50" src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/fast-mail-64.png"/>
+</a>
+
+</div>
+
+
 
 
 
@@ -65,17 +89,7 @@ Visit my portfolio website at: [https://zahid-marwat.github.io/zahid-marwat/](ht
 
 The main portfolio is now accessible via `index.html` for GitHub Pages compatibility.
 
-## 🚀 About Me
 
-I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a strong background in software development. I love working on cutting-edge projects that push the boundaries of what's possible with artificial intelligence and computer vision.
-
-- 🔭 I'm currently working on **computer vision projects** and **AI-powered applications**
-- 🌱 I'm currently learning **Advanced Deep Learning**, **MLOps**, and **Computer Vision Research**
-- 👯 I'm looking to collaborate on **open-source AI projects** and **innovative tech solutions**
-- 🤔 I'm looking for help with **distributed systems** and **large-scale ML deployment**
-- 💬 Ask me about **Computer Vision**, **Machine Learning**, **Python**, and **Software Architecture**
-- 📫 How to reach me: **fbpzahid4830@gmail.com** | **[LinkedIn](https://www.linkedin.com/in/zahid4830513)**
-- ⚡ Fun fact: I can debug code faster after a good cup of coffee ☕
 
 ## 🛠️ Tech Stack
 
@@ -128,10 +142,11 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zahid-marwat&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
-## 🐍 A Snake Eating my Contributions Graph
+
+## Lazziness Eating my Contributions Graph
 	
 <p align = "center">
-	<img src = "https://github.com/zahid-marwat/zahid-marwat/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
+	<img src = "https://github.com/zahid-marwat/zahid-marwat/blob/output/github-snake-dark.svg" alt = "Snake Game"/>
 </p>
 
 
@@ -169,16 +184,7 @@ const currentFocus = {
 };
 ```
 
-## 🤝 Connect with Me
 
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zahid4830513)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/zahid89782667)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fbpzahid4830@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://zahid-marwat.github.io/zahid-marwat/)
-
-</div>
 
 ---
 
@@ -190,17 +196,30 @@ const currentFocus = {
   <i>⭐️ From <a href="https://github.com/zahid-marwat">zahid-marwat</a></i>
 </div>zahid👋
 
-<!--
-**zahid-marwat/zahid-marwat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on computer vision projects
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+
+
+
+
+# 💻 Tech Stack:
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=flat&logo=latex&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=flat&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=flat&logo=r&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat&logo=anaconda&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=flat&logo=nVIDIA&logoColor=green) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=flat&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat&logo=Arduino&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat&logo=firefox&logoColor=#FF7139)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=Zahid-Marwat&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Zahid-Marwat&theme=gruvbox&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Zahid-Marwat&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Zahid-Marwat&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=Zahid-Marwat&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+---
+[![](https://visitcount.itsvg.in/api?id=Zahid-Marwat&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
