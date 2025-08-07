@@ -1,13 +1,13 @@
-## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=Building+the+future+with+AI+%26+Computer+Vision;Passionate+about+Machine+Learning;Creating+intelligent+solutions;Always+learning+new+technologies;Computer+Vision+Engineer+%26+AI+Enthusiast" alt="Typing SVG" />
+## <picture><img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/about_me.gif?raw=true" width = 50px></picture>  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=Building+the+future+with+AI+%26+Computer+Vision;Passionate+about+Machine+Learning;Creating+intelligent+solutions;Always+learning+new+technologies;Computer+Vision+Engineer+%26+AI+Enthusiast" alt="Typing SVG" />
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=gradient&customColorList=11&text=ZAHID%20MARWAT&textBg=false&fontAlignY=23&section=header&reversal=true&animation=twinkling"/>
 </p>
-<picture> <img align="Right" src="https://github.com/zahid-marwat/zahid-marwat/assets/icons/Right_Side.gif?raw=true" width = 250px></picture>
+<picture> <img align="Right" src="https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/Right_Side.gif?raw=true" width = 250px></picture>
 
 
-C:\Users\z-pc\Desktop\zahid-marwat\assets\icons
 
+<!-- --------------------------------------------------------------------------- -->
 
 # 💫 About Me:
 I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a strong background in software development. I love working on cutting-edge projects that push the boundaries of what's possible with artificial intelligence and computer vision.
@@ -17,8 +17,7 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 - 👯 I’m looking to collaborate on **LIDAR** data and **Point Cloud**<br>
 - 🌱 I’m currently learning **Security** problems in **AI Agents**<br>
 - 💬 Ask me about Football
-- 📫 How to reach me: **fbpzahid4830@gmail.com** | **[LinkedIn](https://www.linkedin.com/in/zahid4830513)**
-- ⚡ Fun fact: I can debug code faster after a good cup of coffee ☕
+- ⚡ Fun fact: I can debug code faster after a good cup of coffee
 
 
 
@@ -30,7 +29,10 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
   </a>
 </div>
 
-## 🤝 Connect with Me
+<!-- --------------------------------------------------------------------------- -->
+
+## 🤝<img src="https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/Connect-with-me.gif?raw=true" alt="Connect with Me">  -> -> -> [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://zahid-marwat.github.io/zahid-marwat/)
+
 
 <div align="center">
 <a href="https://instagram.com/xahid.830/">
@@ -46,101 +48,238 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 </a>
 <a href="mailto:fbpzahid4830@gmail.com">
   <img height="50" src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/fast-mail-64.png"/>
-</a>
-
+</a> 
 </div>
 
 
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="3%"> My Skills
 
+<!-- --------------------------------------------------------------------------- -->
 
+### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/Programming_Languages.gif?raw=true" width=5%> Programming languages
 
+<p align="center"> 
+  &emsp; 
+  <a href="https://www.cprogramming.com/" target="_blank"> 
+    <img alt="C" src="https://img.shields.io/badge/C%20-%232370ED.svg?style=plastic&logo=c&logoColor=white">
+  </a> 
+  &emsp;
+  <a href="https://www.w3schools.com/cpp/" target="_blank"> 
+    <img alt="C++" src="https://img.shields.io/badge/C++%20-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white">
+  </a> 
+  &emsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
+     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=plastic&logo=javascript&logoColor=black">
+   </a>
+  &emsp;
+  <a href="https://www.java.com" target="_blank"> 
+    <img alt="SQL" src="https://img.shields.io/badge/SQL-%23007396.svg?style=plastic&logo=java&logoColor=white">
+  </a>
+  &emsp;
+   <a href="https://www.python.org" target="_blank">
+    <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?style=plastic&logo=python&logoColor=white">
+  </a>
+</p>
+<!-- --------------------------------------------------------------------------- -->
 
+### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/Front_End.gif?raw=true" width=5%>  Frontend Development
+<p align="center"> 
+  &emsp; 
+  <a href="https://www.w3.org/html/" target="_blank"> 
+   <img alt="HTML" src="https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=plastic&logo=html5&logoColor=white">
+  </a>   
+  &emsp;
+  <a href="https://www.w3schools.com/css/" target="_blank">
+    <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%231572B6.svg?style=plastic&logo=css3&logoColor=white">
+  </a> 
+  &emsp;
+  <a href="https://www.python.org" target="_blank">
+    <img alt="Python" src="https://img.shields.io/badge/react-%2361DAFB.svg?style=plastic&logo=React&logoColor=black">
+  </a>
+  &emsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
+     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=plastic&logo=javascript&logoColor=black">
+   </a>
+</p>
+<!-- --------------------------------------------------------------------------- -->
 
+ ### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/Software_Tools.gif?raw=true" width=5%>  Software & Tools
+ 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&customColorList=11&text=Till%20the%20next%20deploy&textBg=false&fontAlignY=80&section=footer&reversal=true&animation=twinkling&fontAlign=60"/>
+  &emsp;
+    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?style=plastic&logo=git&logoColor=white"></a>
+  &emsp;
+    <a href="#"><img alt="GitHub" src="https://img.shields.io/badge/github-%23181717.svg?style=plastic&logo=github&logoColor=white"></a>
+  &emsp;
+    <a href="#"><img alt="Google Sheets" src="https://img.shields.io/badge/Google%20Sheets%20-%2334A853.svg?style=plastic&logo=google%20sheets&logoColor=white"></a>
+  &emsp;
+    <a href="#"><img alt="Mark Down" src="https://img.shields.io/badge/Markdown-000000?style=plastic&logo=markdown&logoColor=white"></a>
+  &emsp;
+    <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=plastic&logo=stack-overflow&logoColor=white"></a>
+  &emsp;
+    <a href="#"><img alt="Geekf For Geeks" src="https://img.shields.io/badge/geeksforgeeks-%230F9D58.svg?style=plastic&logo=geeksforgeeks&logoColor=white"></a>
+  &emsp;
+    <a href="#"><img alt="JSON" img src="https://img.shields.io/badge/json-%23000000.svg?style=plastic&logo=json&logoColor=white"></a>
+  &emsp;
+    <a href="#"><img alt="OpenGL" src="https://img.shields.io/badge/opengl-%235586A4.svg?style=plastic&logo=opengl&logoColor=white"></a>
+  &emsp;
+    &emsp;
+    <a href="#"><img src="https://img.shields.io/badge/latex-%23008080.svg?&style=plastic&logo=latex&logoColor=white" /></a>
+    &emsp;
+    <a href="#"><img src="https://img.shields.io/badge/django-%23092E20.svg?&style=plastic&logo=django&logoColor=white" /></a>
+    &emsp;
+    <a href="#"><img src="https://img.shields.io/badge/mysql-%234479A1.svg?&style=plastic&logo=mysql&logoColor=white"/></a>
+</p>
+
+<!-- --------------------------------------------------------------------------- -->
+
+ ### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/IDEs.gif?raw=true" width=5%> IDEs
+ 
+<p align="center">
+  &emsp;
+    <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=plastic&logo=visual-studio-code&logoColor=white"></a>
+  &emsp;
+    <a href="#"><img alt="JetBrain" src="https://img.shields.io/badge/jetbrains-%23000000.svg?style=plastic&logo=jetbrains&logoColor=white" /></a>
+  &emsp;
+    <a href="#"><img alt="Atom" src="https://img.shields.io/badge/atom-%2366595C.svg?&style=plastic&logo=atom&logoColor=white" /></a>
+  &emsp;
+    <a href="#"><img alt="Eclipse" src="https://img.shields.io/badge/eclipse%20ide-%232C2255.svg?&style=plastic&logo=eclipse%20ide&logoColor=white" /></a>
+</p>
+
+<!-- --------------------------------------------------------------------------- -->
+
+ ### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/CP_PS.gif?raw=true" width=5%> Competitive Programming & Problem Solving
+ 
+<p align="center">
+  &emsp;
+    <a href="#"><img alt = "Codeforces" src="https://img.shields.io/badge/codeforces%20-%231F8ACB.svg?style=plastic&logo=codeforces&logoColor=white" /></a>	
+  &emsp;
+    <a href="#"><img alt = "Leetcode" src="https://img.shields.io/badge/leetcode%20-%23FFA116.svg?style=plastic&logo=leetcode&logoColor=black" /></a>
+  &emsp;
+    <a href="#"><img alt = "Huckerrank" src="https://img.shields.io/badge/hackerrank-%232EC866.svg?style=plastic&logo=hackerrank&logoColor=white" /></a>
+  &emsp;
+    <a href="#"><img alt = "CodeChef" src="https://img.shields.io/badge/codechef-%235B4638.svg?style=plastic&logo=codechef&logoColor=white" /></a>
+  &emsp;
+    <a href="#"><img alt = "Google" src="https://img.shields.io/badge/google-%234285F4.svg?style=plastic&logo=google&logoColor=white" /></a>
+  &emsp;
+    <a href="#"><img alt = "Codin Game" src="https://img.shields.io/badge/codingame-%23F2BB13.svg?&style=plastic&logo=codingame&logoColor=black" /></a>
+</p>
+
+<!-- --------------------------------------------------------------------------- -->
+
+ ### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/OS.gif?raw=true" width=5%>  Operating Systems
+ 
+<p align="center">
+  &emsp;
+    <a href="#"><img src="https://img.shields.io/badge/Linux-FCC624?style=plastic&logo=linux&logoColor=black"></a>
+  &emsp;
+    <a href="#"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=plastic&logo=ubuntu&logoColor=white"></a>
+  &emsp;
+    <a href="#"><img src="https://img.shields.io/badge/Windows-0078D6?style=plastic&logo=windows&logoColor=white"></a>
+  &emsp;
+    <a href="#"><img src="https://img.shields.io/badge/manjaro-%2335BF5C.svg?&style=plastic&logo=manjaro&logoColor=white" /></a>
+</p>
+
+<!-- --------------------------------------------------------------------------- -->
+
+<p align = "center">
+	<a href="https://github.com/piyushsuthar/github-readme-quotes"> <img alt = "Quote" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox&animation=grow_out_in&quoteCategory=programming">
 </p>
 
 
 
+<!-- ----------------------------------------------------------------------------->
 
 
 
+## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzFhYzJkMmQ2MWQ3ZGY3MDhjZTE3MDI2Mzk3NzE1OWQyZTRlMmYwMCZjdD1z/iY8CRBdQXODJSCERIr/giphy.gif" width=5% valign="bottom"> Github Stats
+
+
+<details><summary><h3> 🔥 Streak Stats</h3></summary>
+
+----	
+
+<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=zahid-marwat&theme=gruvbox" alt="zahid-marwat" /></p>
+
+</details>
+  
+<details><summary><h3>💻 GitHub Profile Stats</h3></summary>
+
+----
+	
+<p align="center">
+    <a href="https://github.com/zahid-marwat/github-readme-stats">
+      <img src="https://github-readme-stats.vercel.app/api?username=Zahid-Marwat&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+      <img src="https://nirzak-streak-stats.vercel.app/?user=Zahid-Marwat&theme=gruvbox&hide_border=false" alt="GitHub Streak" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zahid-Marwat&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+<br/>
+
+  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
+  </p>
+</details>
+
+<details><summary><h3>⚡ Recent GitHub Activity</h3></summary>
+
+
+	
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=zahid-marwat&bg_color=1a1b27&color=aa82d9&line=628edb&point=64bfaf&area=true&hide_border=true)(https://github.com/zahid-marwat/github-readme-activity-graph)">
+ 
+</details>
+
+
+<!-- ----------------------------------------------------------------------------->
 
 
 
+<details><summary> <h3> :trophy: Git profile Trophies </h3></summary>
+
+
+	
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=zahid-marwat&layout=compact&theme=gruvbox&column=4&margin-w=15&margin-h=15" alt="7oskaaa" /></a> </p>
+
+	
+</details>
+	
+
+<!-- ----------------------------------------------------------------------------->
 
 
 
+<details><summary><h3> :open_file_folder: My Repositories </h3></summary>
 
+<div>
+  <p align="center">
+	<a href="https://github.com/zahid-marwat/zahid-marwat">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=zahid-marwat&repo=zahid-marwat&theme=gruvbox" alt="GitHub Stats" />
+    	</a>
+	<a href="https://github.com/zahid-marwat/smart-QC">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=zahid-marwat&repo=smart-QC&theme=gruvbox" alt="GitHub Stats" />
+    	</a>
+	<a href="https://github.com/zahid-marwat/E-Tracker">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=zahid-marwat&repo=E-Tracker&theme=gruvbox" alt="GitHub Stats" />
+    	</a>
+	<a href="https://github.com/zahid-marwat/Road-Lines-Detection">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=zahid-marwat&repo=Road-Lines-Detection&theme=gruvbox" alt="GitHub Stats" />
+    	</a>
+	<a href="https://github.com/zahid-marwat/TIFF_file_creation">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=zahid-marwat&repo=TIFF_file_creation&theme=gruvbox" alt="GitHub Stats" />
+    	</a>
+	<a href="https://github.com/zahid-marwat/My_utils">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=zahid-marwat&repo=My_utils&theme=gruvbox" alt="GitHub Stats" />
+    	</a>
+	<a href="https://github.com/zahid-marwat/Street_View_Video_Maker">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=zahid-marwat&repo=Street_View_Video_Maker&theme=gruvbox" alt="GitHub Stats" />
+    	</a>
+	<a href="https://github.com/zahid-marwat/Data_augmentation">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=zahid-marwat&repo=Data_augmentation&theme=gruvbox" alt="GitHub Stats" />
 
-
-<br>
-
-
-
-
-
-
-
-
-## 🌐 Portfolio Website
-
-Visit my portfolio website at: [https://zahid-marwat.github.io/zahid-marwat/](https://zahid-marwat.github.io/zahid-marwat/)
-
-The main portfolio is now accessible via `index.html` for GitHub Pages compatibility.
-
-
-
-## 🛠️ Tech Stack
-
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-
-### AI/ML & Computer Vision
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-### Web Development
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### Databases & Cloud
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-### Tools & Others
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d4?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zahid-marwat&show_icons=true&theme=radical" alt="GitHub Stats" />
+  </p>
 </div>
+</details>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=zahid-marwat&theme=radical" alt="GitHub Streak" />
-</div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zahid-marwat&layout=compact&theme=radical" alt="Top Languages" />
-</div>
+<!-- ----------------------------------------------------------------------------->
+
 
 
 ## Lazziness Eating my Contributions Graph
@@ -150,43 +289,11 @@ The main portfolio is now accessible via `index.html` for GitHub Pages compatibi
 </p>
 
 
-## 💼 Experience
 
-### Senior Computer Vision Engineer
-**Airloop** - 2022 - Present
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&customColorList=11&text=Till%20the%20next%20patch&textBg=false&fontAlignY=80&section=footer&reversal=true&animation=twinkling&fontAlign=60"/>
+</p>
 
-<img src="assets/images/airloop_logo.png" alt="Airloop logo" width="200" height="50">
-
-Leading computer vision projects and AI model development
-
-## 🎓 Education
-
-<img src="assets/images/NUST.png" alt="NUST logo" width="120" height="120">
-
-### Master of Science in Information Security
-**National University of Sciences and Technology, NUST** - 2026
-Specialized in information security, secure software development, and AI applications
-
-<img src="assets/images/GIKI.png" alt="GIKI logo" width="100" height="100">
-
-### Bachelor of Science in Electrical Engineering
-**Ghulam Ishaq Khan Institute of Engineering Sciences and Technology, GIKI** - 2022
-Focus on electrical systems, software development, and data structures
-
-## 📈 Current Focus
-
-```javascript
-const currentFocus = {
-    learning: ["Advanced Computer Vision", "MLOps", "Cloud Architecture"],
-    working: ["Computer Vision Research", "AI Product Development"],
-    collaborating: ["Open Source AI Projects", "Tech Community"],
-    goals: ["Contributing to AI Research", "Building Impactful Products"]
-};
-```
-
-
-
----
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=zahid-marwat&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
@@ -194,32 +301,8 @@ const currentFocus = {
 
 <div align="center">
   <i>⭐️ From <a href="https://github.com/zahid-marwat">zahid-marwat</a></i>
-</div>zahid👋
 
 
 
 
 
-
-
-
-# 💻 Tech Stack:
-![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=flat&logo=latex&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=flat&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=flat&logo=r&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat&logo=anaconda&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=flat&logo=nVIDIA&logoColor=green) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=flat&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat&logo=Arduino&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat&logo=firefox&logoColor=#FF7139)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Zahid-Marwat&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Zahid-Marwat&theme=gruvbox&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Zahid-Marwat&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Zahid-Marwat&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Zahid-Marwat&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
----
-[![](https://visitcount.itsvg.in/api?id=Zahid-Marwat&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
