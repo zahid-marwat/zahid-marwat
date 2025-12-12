@@ -31,7 +31,7 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 
 <!-- --------------------------------------------------------------------------- -->
 
-## 🤝<img src="https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/Connect-with-me.gif?raw=true" alt="Connect with Me">  -> -> -> [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://zahid-marwat.github.io/zahid-marwat/)
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="3%"> <img src="https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/Connect-with-me.gif?raw=true" alt="Connect with Me">  -> -> -> [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://zahid-marwat.github.io/zahid-marwat/)
 
 
 <div align="center">
@@ -52,11 +52,10 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 </div>
 
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="3%"> My Skills
+## <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/OS.gif?raw=true" width=5%> My Skills
 
 <!-- --------------------------------------------------------------------------- -->
 
-### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/Programming_Languages.gif?raw=true" width=5%> Programming languages
 
 <p align="center"> 
   &emsp; 
@@ -79,10 +78,8 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
    <a href="https://www.python.org" target="_blank">
     <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?style=plastic&logo=python&logoColor=white">
   </a>
-</p>
-<!-- --------------------------------------------------------------------------- -->
 
-### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/Front_End.gif?raw=true" width=5%>  Frontend Development
+<!-- --------------------------------------------------------------------------- -->
 <p align="center"> 
   &emsp; 
   <a href="https://www.w3.org/html/" target="_blank"> 
@@ -103,11 +100,8 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 </p>
 <!-- --------------------------------------------------------------------------- -->
 
- ### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/Software_Tools.gif?raw=true" width=5%>  Software & Tools
  
 <p align="center">
-  &emsp;
-    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?style=plastic&logo=git&logoColor=white"></a>
   &emsp;
     <a href="#"><img alt="GitHub" src="https://img.shields.io/badge/github-%23181717.svg?style=plastic&logo=github&logoColor=white"></a>
   &emsp;
@@ -121,19 +115,15 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
   &emsp;
     <a href="#"><img alt="JSON" img src="https://img.shields.io/badge/json-%23000000.svg?style=plastic&logo=json&logoColor=white"></a>
   &emsp;
-    <a href="#"><img alt="OpenGL" src="https://img.shields.io/badge/opengl-%235586A4.svg?style=plastic&logo=opengl&logoColor=white"></a>
-  &emsp;
     &emsp;
     <a href="#"><img src="https://img.shields.io/badge/latex-%23008080.svg?&style=plastic&logo=latex&logoColor=white" /></a>
     &emsp;
     <a href="#"><img src="https://img.shields.io/badge/django-%23092E20.svg?&style=plastic&logo=django&logoColor=white" /></a>
     &emsp;
     <a href="#"><img src="https://img.shields.io/badge/mysql-%234479A1.svg?&style=plastic&logo=mysql&logoColor=white"/></a>
-</p>
+
 
 <!-- --------------------------------------------------------------------------- -->
-
- ### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/IDEs.gif?raw=true" width=5%> IDEs
  
 <p align="center">
   &emsp;
@@ -148,26 +138,10 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 
 <!-- --------------------------------------------------------------------------- -->
 
- ### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/CP_PS.gif?raw=true" width=5%> Competitive Programming & Problem Solving
- 
-<p align="center">
-  &emsp;
-    <a href="#"><img alt = "Codeforces" src="https://img.shields.io/badge/codeforces%20-%231F8ACB.svg?style=plastic&logo=codeforces&logoColor=white" /></a>	
-  &emsp;
-    <a href="#"><img alt = "Leetcode" src="https://img.shields.io/badge/leetcode%20-%23FFA116.svg?style=plastic&logo=leetcode&logoColor=black" /></a>
-  &emsp;
-    <a href="#"><img alt = "Huckerrank" src="https://img.shields.io/badge/hackerrank-%232EC866.svg?style=plastic&logo=hackerrank&logoColor=white" /></a>
-  &emsp;
-    <a href="#"><img alt = "CodeChef" src="https://img.shields.io/badge/codechef-%235B4638.svg?style=plastic&logo=codechef&logoColor=white" /></a>
-  &emsp;
-    <a href="#"><img alt = "Google" src="https://img.shields.io/badge/google-%234285F4.svg?style=plastic&logo=google&logoColor=white" /></a>
-  &emsp;
-    <a href="#"><img alt = "Codin Game" src="https://img.shields.io/badge/codingame-%23F2BB13.svg?&style=plastic&logo=codingame&logoColor=black" /></a>
-</p>
+
 
 <!-- --------------------------------------------------------------------------- -->
 
- ### <img src = "https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/OS.gif?raw=true" width=5%>  Operating Systems
  
 <p align="center">
   &emsp;
