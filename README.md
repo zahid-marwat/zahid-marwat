@@ -180,6 +180,8 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
       <img src="https://github-readme-stats.vercel.app/api?username=Zahid-Marwat&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
       <img src="https://nirzak-streak-stats.vercel.app/?user=Zahid-Marwat&theme=gruvbox&hide_border=false" alt="GitHub Streak" />
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zahid-Marwat&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+		<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zahid-Marwat&theme=gruvbox&hide_border=false&layout=compact" />
+
 <br/>
 
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
