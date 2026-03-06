@@ -213,7 +213,7 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 
 
 
-<details><summary><h3> :open_file_folder: My Repositories </h3></summary>
+<!--details><summary><h3> :open_file_folder: My Repositories </h3></summary>
 
 <div>
   <p align="center">
