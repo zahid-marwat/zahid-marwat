@@ -199,11 +199,11 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 
 
 
-<details><summary> <h3> :trophy: Git profile Trophies </h3></summary>
+<!--details><summary> <h3> :trophy: Git profile Trophies </h3></summary>
 
 
 	
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=zahid-marwat&layout=compact&theme=gruvbox&column=4&margin-w=15&margin-h=15" alt="7oskaaa" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=zahid-marwat&layout=compact&theme=gruvbox&column=4&margin-w=15&margin-h=15" alt="Git Trophies" /></a> </p>
 
 	
 </details>
