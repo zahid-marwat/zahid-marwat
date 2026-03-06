@@ -176,7 +176,7 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 ----
 	
 <p align="center">
-    <a href="https://github.com/zahid-marwat/github-readme-stats">
+    <a >
       <img src="https://github-readme-stats.vercel.app/api?username=Zahid-Marwat&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
       <img src="https://nirzak-streak-stats.vercel.app/?user=Zahid-Marwat&theme=gruvbox&hide_border=false" alt="GitHub Streak" />
 
