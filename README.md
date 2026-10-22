@@ -29,6 +29,11 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
   </a>
 </div>
 
+<div align="center">
+  <a>
+    [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://vercel-portfolio-six-omega.vercel.app/)
+  </a>
+</div>
 <!-- --------------------------------------------------------------------------- -->
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="3%"> <img src="https://github.com/zahid-marwat/zahid-marwat/blob/main/assets/icons/Connect-with-me.gif?raw=true" alt="Connect with Me">  -> -> -> [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://vercel-portfolio-six-omega.vercel.app/)
