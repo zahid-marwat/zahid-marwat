@@ -30,8 +30,8 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 </div>
 
 <div align="center">
-  <a>
-    [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://vercel-portfolio-six-omega.vercel.app/)
+  <a href="https://vercel-portfolio-six-omega.vercel.app/" target="_blank">
+	<img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio">
   </a>
 </div>
 <!-- --------------------------------------------------------------------------- -->
