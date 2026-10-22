@@ -36,10 +36,10 @@ I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a st
 </div>
 <!-- --------------------------------------------------------------------------- -->
 
-
-<a href="mailto:fbpzahid4830@gmail.com">
-  <img height="50" src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/fast-mail-64.png"/>
-</a> 
+<div align="center">
+	<a href="mailto:fbpzahid4830@gmail.com">
+	  <img height="50" src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/fast-mail-64.png"/>
+	</a> 
 </div>
 
 
